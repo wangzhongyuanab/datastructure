@@ -1,0 +1,11 @@
+
+[
+squid:S1066"9Replace this use of System.out or System.err by a logger.(æäì³ûÿÿÿÿ8˜¶¼â-
+V
+squid:S1061"9Replace this use of System.out or System.err by a logger.(•ÎÁ´8ÏŞŠ¼â-
+[
+squid:S1063"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8¥¸¼â-
+[
+squid:S1068"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8œï¼â-
+bsquid:HiddenFieldCheck-":Rename "vertex" which hides the field declared at line 29.(‹ş€^8âÓµ¼â-
+Msquid:S1068"*Remove this unused "vertex" private field.(àº«ıÿÿÿÿ8øµñ»â-

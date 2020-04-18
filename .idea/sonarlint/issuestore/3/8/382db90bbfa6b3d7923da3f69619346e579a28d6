@@ -1,0 +1,11 @@
+
+Fsquid:S1604"(Make this anonymous inner class a lambda(é¯—ß8§‘ž˜ó-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÄÉ€ˆüÿÿÿÿ8Öé˜˜ó-
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(²›®Ì8¯æ¡˜ó-
+Msquid:S00108	")Either remove or fill this block of code.(˜ïˆžÿÿÿÿÿ8é¡›˜ó-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(ŽÐÂ¡ýÿÿÿÿ8§‘ž˜ó-
+Fsquid:S1481"(Remove this unused "dlc" local variable.(ÖŸ¤±8Ôß ˜ó-
+Ksquid:S2440"-Remove this instantiation of "DeadLoopClass".(ÖŸ¤±8Ôß ˜ó-

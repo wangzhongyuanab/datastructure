@@ -1,0 +1,259 @@
+
+vsquid:S2293–"YReplace the type specification in this constructor call with the diamond operator ("<>").(°Â”šûÿÿÿÿ
+7squid:S1659ô"Declare "v" on a separate line.(æ•Ğ®
+p
+squid:S135¸"YReduce the total number of break and continue statements in this loop to use at most one.(‘ßµé
+h squid:LabelsShouldNotBeUsedCheck";Refactor the code to remove this label and the need for it.(«àßı
+Rsquid:S1161½
+":Add the "@Override" annotation above this method signature(ÛáÇÿ
+ssquid:S00115€"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(×§Úš
+7squid:S1659’"Declare "p" on a separate line.(Ùôíà
+Š squid:ForLoopCounterChangedCheck‰"XRefactor the code in order to not assign to this loop counter from within the loop body.(¿Ä€ûúÿÿÿÿ
+d$squid:AssignmentInSubExpressionCheckì
+".Extract the assignment out of this expression.(¦à½Úøÿÿÿÿ
+vsquid:S2293à"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ó¹³öúÿÿÿÿ
+_$squid:AssignmentInSubExpressionCheckË".Extract the assignment out of this expression.(‹öêü
+Hsquid:S2387€"1"values" is the name of a field in "AbstractMap".(›§¦
+… squid:ForLoopCounterChangedCheck¨"XRefactor the code in order to not assign to this loop counter from within the loop body.(É£Ñ×
+qsquid:S2293ë"YReplace the type specification in this constructor call with the diamond operator ("<>").(¶Ñ®
+vsquid:S2293Ó"YReplace the type specification in this constructor call with the diamond operator ("<>").(Î•Êšÿÿÿÿÿ
+m squid:LabelsShouldNotBeUsedCheck·";Refactor the code to remove this label and the need for it.(—êÀéúÿÿÿÿ
+vsquid:S2293²"YReplace the type specification in this constructor call with the diamond operator ("<>").(îÂÑİşÿÿÿÿ
+7squid:S1659£"Declare "b" on a separate line.(ÊÂØÇ
+osquid:S3776ï"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(ô†úûøÿÿÿÿ
+vsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(š“µòøÿÿÿÿ
+osquid:S3776í"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(ååæ¾ùÿÿÿÿ
+7squid:S1659ô"Declare "n" on a separate line.(ÊÂØÇ
+<squid:S1659à"Declare "v" on a separate line.(Ş‰“Çÿÿÿÿÿ
+d$squid:AssignmentInSubExpressionCheckö".Extract the assignment out of this expression.(îªìøÿÿÿÿ
+d$squid:AssignmentInSubExpressionCheck·".Extract the assignment out of this expression.(îªìøÿÿÿÿ
+vsquid:S2293¹"YReplace the type specification in this constructor call with the diamond operator ("<>").( ä¤ÿÿÿÿÿ
+… squid:ForLoopCounterChangedCheck­"XRefactor the code in order to not assign to this loop counter from within the loop body.(¶Öçò
+p
+squid:S135Ø"YReduce the total number of break and continue statements in this loop to use at most one.(´ÿÕ™
+vsquid:S2293Æ"YReplace the type specification in this constructor call with the diamond operator ("<>").(•Ÿ€ûÿÿÿÿ
+qsquid:S2293ù"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ôİ—ÿ
+Wsquid:S1161š":Add the "@Override" annotation above this method signature(àœçœıÿÿÿÿ
+<squid:S1659Ç"Declare "v" on a separate line.(Ş‰“Çÿÿÿÿÿ
+vsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(º¦ˆ‚ùÿÿÿÿ
+7squid:S1659º"Declare "c" on a separate line.(©ë·û
+7squid:S1659™"Declare "v" on a separate line.(İá¤±
+fsquid:S2272”"NAdd a "NoSuchElementException" for iteration beyond the end of the collection.(ˆ™³
+Wsquid:S1161²":Add the "@Override" annotation above this method signature(­­¬Îùÿÿÿÿ
+_$squid:AssignmentInSubExpressionCheckğ".Extract the assignment out of this expression.(ù€½
+p
+squid:S135 "YReduce the total number of break and continue statements in this loop to use at most one.(ºæ½±
+… squid:ForLoopCounterChangedCheck“"XRefactor the code in order to not assign to this loop counter from within the loop body.(ù°à
+8squid:S1659Ç" Declare "ek" on a separate line.(äÏàÕ
+msquid:S1206†"PThis class overrides "equals()" and should therefore also override "hashCode()".(İ¢êÍıÿÿÿÿ
+7squid:S1659"Declare "p" on a separate line.(ÉÁÊ
+Š squid:ForLoopCounterChangedCheckŸ"XRefactor the code in order to not assign to this loop counter from within the loop body.(§ÇÔ¾ÿÿÿÿÿ
+vsquid:S2293Õ"YReplace the type specification in this constructor call with the diamond operator ("<>").(ßÛÕ¼øÿÿÿÿ
+Ysquid:UselessImportCheck5"0Remove this unused import 'java.util.SortedSet'.(ÆÙÉÛşÿÿÿÿ
+7squid:S1659®	"Declare "r" on a separate line.(òÚ¦
+qsquid:S2293ª"YReplace the type specification in this constructor call with the diamond operator ("<>").(Øâ’¦
+qsquid:S2293ë"YReplace the type specification in this constructor call with the diamond operator ("<>").(ŞŒûË
+p
+squid:S135Ë"YReduce the total number of break and continue statements in this loop to use at most one.(´ÿÕ™
+Wsquid:S1161ç":Add the "@Override" annotation above this method signature(İ¢êÍıÿÿÿÿ
+Rsquid:S1161¬":Add the "@Override" annotation above this method signature(ûÄ•
+osquid:S3776Ğ	"RRefactor this method to reduce its Cognitive Complexity from 36 to the 15 allowed.(öæÉÖıÿÿÿÿ
+7squid:S1659Ë"Declare "v" on a separate line.(İá¤±
+Š squid:ForLoopCounterChangedCheck»	"XRefactor the code in order to not assign to this loop counter from within the loop body.(„ƒùÇùÿÿÿÿ
+Š squid:ForLoopCounterChangedCheck¡"XRefactor the code in order to not assign to this loop counter from within the loop body.(®®é‘ÿÿÿÿÿ
+fsquid:S2272¦"NAdd a "NoSuchElementException" for iteration beyond the end of the collection.(œÑøé
+Rsquid:S1161Ü":Add the "@Override" annotation above this method signature(ğ¸¯¡
+u
+squid:S135­	"YReduce the total number of break and continue statements in this loop to use at most one.(‡Îûüÿÿÿÿ
+csquid:S2147™"FCombine this catch with the one at line 1943, which has the same body.(Ü–›×øÿÿÿÿ
+p
+squid:S135ì"YReduce the total number of break and continue statements in this loop to use at most one.(´ÿÕ™
+7squid:S1659õ"Declare "p" on a separate line.(ÉÁÊ
+qsquid:S2293ù
+"YReplace the type specification in this constructor call with the diamond operator ("<>").(İÊŒ¶
+<squid:S1948”"$Make "lo" transient or serializable.(ö½•·
+h squid:LabelsShouldNotBeUsedCheckÁ";Refactor the code to remove this label and the need for it.(«àßı
+msquid:S1206ç"PThis class overrides "equals()" and should therefore also override "hashCode()".(İ¢êÍıÿÿÿÿ
+Wsquid:S1161ï":Add the "@Override" annotation above this method signature(ô†úûøÿÿÿÿ
+… squid:ForLoopCounterChangedCheck¡"XRefactor the code in order to not assign to this loop counter from within the loop body.(ù°à
+jsquid:S3776Ì"RRefactor this method to reduce its Cognitive Complexity from 34 to the 15 allowed.(òŠÎÅ
+Wsquid:S1161é":Add the "@Override" annotation above this method signature(¦³üëûÿÿÿÿ
+8squid:S1659£" Declare "sk" on a separate line.(ÊÂØÇ
+7squid:S1659Ì"Declare "v" on a separate line.(æ•Ğ®
+Ksquid:S3077ñ".Remove the "volatile" keyword from this field.(€Ğíóÿÿÿÿÿ
+Wsquid:S1161±":Add the "@Override" annotation above this method signature(ÂìÎ‚øÿÿÿÿ
+Qsquid:S1161º":Add the "@Override" annotation above this method signature(‡æ­$
+vsquid:S2293œ"YReplace the type specification in this constructor call with the diamond operator ("<>").(š“µòøÿÿÿÿ
+Š squid:ForLoopCounterChangedCheckš"XRefactor the code in order to not assign to this loop counter from within the loop body.(õÃŞ¤úÿÿÿÿ
+Rsquid:S1161¹":Add the "@Override" annotation above this method signature(‹Ûè‰
+osquid:S3776Î"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(¥ãÇîşÿÿÿÿ
+… squid:ForLoopCounterChangedCheck¡"XRefactor the code in order to not assign to this loop counter from within the loop body.(ù°à
+Š squid:ForLoopCounterChangedCheck³"XRefactor the code in order to not assign to this loop counter from within the loop body.(ĞÇŸéıÿÿÿÿ
+… squid:ForLoopCounterChangedCheck"XRefactor the code in order to not assign to this loop counter from within the loop body.(¶Öçò
+Ksquid:S3077¥".Remove the "volatile" keyword from this field.(»¥¥–ÿÿÿÿÿ
+jsquid:S3776½"RRefactor this method to reduce its Cognitive Complexity from 42 to the 15 allowed.(ö¹Ÿ¶
+Msquid:S1191›"5Use classes from the Java API instead of Sun classes.(¾¯Œ÷
+7squid:S1659º"Declare "v" on a separate line.(İá¤±
+… squid:ForLoopCounterChangedCheck	"XRefactor the code in order to not assign to this loop counter from within the loop body.(âğ€Û
+nsquid:S1192Ì"QDefine a constant instead of duplicating this literal "key out of range" 3 times.(¾Şñúÿÿÿÿ
+vsquid:S2293®"YReplace the type specification in this constructor call with the diamond operator ("<>").(³¡¼¦úÿÿÿÿ
+vsquid:S2293‚"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÔÀÊÓúÿÿÿÿ
+vsquid:S2293‰"YReplace the type specification in this constructor call with the diamond operator ("<>").(Œûæ—ıÿÿÿÿ
+7squid:S1659ó"Declare "v" on a separate line.(İá¤±
+Qsquid:S1161ø":Add the "@Override" annotation above this method signature(âåı|
+7squid:S1659Ì"Declare "b" on a separate line.(ÊÂØÇ
+vsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¿¶Ÿşúÿÿÿÿ
+Xsquid:S1126Ü"AReplace this if-then-else statement by a single return statement.(Š‹
+p
+squid:S135	"YReduce the total number of break and continue statements in this loop to use at most one.(ˆºóŞ
+qsquid:S2293±"YReplace the type specification in this constructor call with the diamond operator ("<>").(‹ç€¡
+qsquid:S2293Ø"YReplace the type specification in this constructor call with the diamond operator ("<>").(Œ‘Ÿœ
+csquid:S2147õ"FCombine this catch with the one at line 2419, which has the same body.(Ü–›×øÿÿÿÿ
+xsquid:S00115î"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(úå€ùÿÿÿÿ
+vsquid:S2293ó
+"YReplace the type specification in this constructor call with the diamond operator ("<>").(ºÅî…úÿÿÿÿ
+=squid:S2157"%Add a "clone()" method to this class.(ãªÁî
+… squid:ForLoopCounterChangedCheckÓ"XRefactor the code in order to not assign to this loop counter from within the loop body.(âğ€Û
+wsquid:S00120$"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(©Åƒéüÿÿÿÿ
+_$squid:AssignmentInSubExpressionCheck÷".Extract the assignment out of this expression.(‹×
+Esquid:S1068"-Remove this unused "SECONDARY" private field.(ÍÁÈÿ
+p
+squid:S135Ö"YReduce the total number of break and continue statements in this loop to use at most one.(´ÿÕ™
+jsquid:S3776‰"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(ˆÂÎÙ
+_$squid:AssignmentInSubExpressionCheckë".Extract the assignment out of this expression.(¶Ñ®
+jsquid:S3776ü"RRefactor this method to reduce its Cognitive Complexity from 34 to the 15 allowed.(œä«Ë
+7squid:S1659‹"Declare "v" on a separate line.(İá¤±
+jsquid:S3776å"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(úÛİÓ
+fsquid:S2272–"NAdd a "NoSuchElementException" for iteration beyond the end of the collection.(Èç•Ê
+Rsquid:S1161¸":Add the "@Override" annotation above this method signature(™®¹Ü
+>squid:S1659İ"!Declare "max" on a separate line.(â¼–Üıÿÿÿÿ
+7squid:S1659"Declare "c" on a separate line.(©ë·û
+vsquid:S2293¾"YReplace the type specification in this constructor call with the diamond operator ("<>").(Úİ´‰şÿÿÿÿ
+Wsquid:S1161Ç":Add the "@Override" annotation above this method signature(²‘šÂÿÿÿÿÿ
+fsquid:S2272£"NAdd a "NoSuchElementException" for iteration beyond the end of the collection.(œÑøé
+8squid:S1659ï" Declare "ek" on a separate line.(äÏàÕ
+qsquid:S2293ä"YReplace the type specification in this constructor call with the diamond operator ("<>").(©¬ÆË
+d$squid:AssignmentInSubExpressionCheck®".Extract the assignment out of this expression.(³¡¼¦úÿÿÿÿ
+@squid:S1948’"#Make "m" transient or serializable.(ùÒÂêúÿÿÿÿ
+vsquid:S2293ñ"YReplace the type specification in this constructor call with the diamond operator ("<>").(°Â”šûÿÿÿÿ
+qsquid:S2293ğ"YReplace the type specification in this constructor call with the diamond operator ("<>").(ù€½
+jsquid:S3776­"RRefactor this method to reduce its Cognitive Complexity from 29 to the 15 allowed.(’ô®æ
+7squid:S1659£"Declare "n" on a separate line.(ÊÂØÇ
+fsquid:S2272"NAdd a "NoSuchElementException" for iteration beyond the end of the collection.(ˆ™³
+<squid:S1659ª"Declare "v" on a separate line.(Ş‰“Çÿÿÿÿÿ
+jsquid:S3776«	"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(£ª­à
+Š squid:ForLoopCounterChangedCheckû"XRefactor the code in order to not assign to this loop counter from within the loop body.(®®é‘ÿÿÿÿÿ
+_squid:S00112¨"FDefine and throw a dedicated exception instead of using a generic one.(Âğğ
+7squid:S1659¶"Declare "p" on a separate line.(ÉÁÊ
+… squid:ForLoopCounterChangedCheck¬"XRefactor the code in order to not assign to this loop counter from within the loop body.(—¶úè
+Hsquid:S2387ü"1"keySet" is the name of a field in "AbstractMap".(¤Í°d
+… squid:ForLoopCounterChangedCheck "XRefactor the code in order to not assign to this loop counter from within the loop body.(üóç¿
+vsquid:S2293Ø
+"YReplace the type specification in this constructor call with the diamond operator ("<>").(Úİ´‰şÿÿÿÿ
+8squid:S1659Ì" Declare "sk" on a separate line.(ÊÂØÇ
+p
+squid:S135ÿ"YReduce the total number of break and continue statements in this loop to use at most one.(×°Â
+… squid:ForLoopCounterChangedCheck¢"XRefactor the code in order to not assign to this loop counter from within the loop body.(âğ€Û
+p
+squid:S135¡"YReduce the total number of break and continue statements in this loop to use at most one.(Ÿš„×
+Wsquid:S1161˜":Add the "@Override" annotation above this method signature(ª÷‚µøÿÿÿÿ
+_$squid:AssignmentInSubExpressionCheckş".Extract the assignment out of this expression.(·È‰’
+Ksquid:S3077¹".Remove the "volatile" keyword from this field.(™»‚»üÿÿÿÿ
+jsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(ÚÚÅË
+xsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ŞÔ—¸üÿÿÿÿ
+… squid:ForLoopCounterChangedCheck´"XRefactor the code in order to not assign to this loop counter from within the loop body.(Û·òº
+… squid:ForLoopCounterChangedCheck"XRefactor the code in order to not assign to this loop counter from within the loop body.(—¶úè
+7squid:S1659Ã"Declare "c" on a separate line.(©ë·û
+psquid:S4144÷"XUpdate this method so that its implementation is not identical to "keySet" on line 3058.(‹×ÌÓ
+ksquid:S3776²"SRefactor this method to reduce its Cognitive Complexity from 122 to the 15 allowed.(ˆ™·‚
+qsquid:S2293ô"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ôİ—ÿ
+Š squid:ForLoopCounterChangedCheckÅ"XRefactor the code in order to not assign to this loop counter from within the loop body.(®®é‘ÿÿÿÿÿ
+psquid:S2293ı"YReplace the type specification in this constructor call with the diamond operator ("<>").(ºü±l
+… squid:ForLoopCounterChangedCheckè	"XRefactor the code in order to not assign to this loop counter from within the loop body.(âğ€Û
+Wsquid:S1161‰":Add the "@Override" annotation above this method signature(¦³üëûÿÿÿÿ
+osquid:S3776æ"RRefactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.(¢Ì¥üÿÿÿÿ
+_squid:S00112ö"FDefine and throw a dedicated exception instead of using a generic one.(Âğğ
+p
+squid:S135¤"YReduce the total number of break and continue statements in this loop to use at most one.(´ÿÕ™
+d$squid:AssignmentInSubExpressionCheckÕ".Extract the assignment out of this expression.(¦à½Úøÿÿÿÿ
+psquid:S4144±"XUpdate this method so that its implementation is not identical to "keySet" on line 1836.(‹×ÌÓ
+ssquid:S00115œ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ãñÁÒ
+7squid:S1659Ì"Declare "r" on a separate line.(æ•Ğ®
+Csquid:S2160"+Override the "equals" method in this class.(ãªÁî
+8squid:S1659ô" Declare "sk" on a separate line.(ÊÂØÇ
+Rsquid:S1161„":Add the "@Override" annotation above this method signature(÷ƒµ—
+p
+squid:S135ê"YReduce the total number of break and continue statements in this loop to use at most one.(‘ßµé
+ksquid:S2975½
+"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(ÛáÇÿ
+7squid:S1659„	"Declare "r" on a separate line.(òÚ¦
+vsquid:S2293ô"YReplace the type specification in this constructor call with the diamond operator ("<>").(êñ„¼øÿÿÿÿ
+Wsquid:S1161¦":Add the "@Override" annotation above this method signature(Ÿà¯±ûÿÿÿÿ
+p
+squid:S135"YReduce the total number of break and continue statements in this loop to use at most one.(‘ßµé
+vsquid:S2293•"YReplace the type specification in this constructor call with the diamond operator ("<>").(›Š¢ºøÿÿÿÿ
+vsquid:S2293©"YReplace the type specification in this constructor call with the diamond operator ("<>").(š“µòøÿÿÿÿ
+_$squid:AssignmentInSubExpressionCheckù".Extract the assignment out of this expression.(Ôİ—ÿ
+qsquid:S2293á"YReplace the type specification in this constructor call with the diamond operator ("<>").(¯™®å
+7squid:S1659Ì"Declare "n" on a separate line.(ÊÂØÇ
+Wsquid:S1161â":Add the "@Override" annotation above this method signature(ø¤ÆÅùÿÿÿÿ
+qsquid:S2293Ë"YReplace the type specification in this constructor call with the diamond operator ("<>").(‹öêü
+vsquid:S2293û
+"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ó¹³öúÿÿÿÿ
+csquid:S2147ñ"FCombine this catch with the one at line 2543, which has the same body.(Ü–›×øÿÿÿÿ
+p
+squid:S135Â"YReduce the total number of break and continue statements in this loop to use at most one.(‘ßµé
+7squid:S1659ô"Declare "r" on a separate line.(æ•Ğ®
+qsquid:S2293ş"YReplace the type specification in this constructor call with the diamond operator ("<>").(·È‰’
+d$squid:AssignmentInSubExpressionCheck".Extract the assignment out of this expression.(îªìøÿÿÿÿ
+qsquid:S2293Ç"YReplace the type specification in this constructor call with the diamond operator ("<>").(¯™®å
+Š squid:ForLoopCounterChangedCheckœ	"XRefactor the code in order to not assign to this loop counter from within the loop body.(®®é‘ÿÿÿÿÿ
+Wsquid:S1161»":Add the "@Override" annotation above this method signature(ª÷‚µøÿÿÿÿ
+… squid:ForLoopCounterChangedCheck¾"XRefactor the code in order to not assign to this loop counter from within the loop body.(ù¡ŞŒ
+… squid:ForLoopCounterChangedCheck“"XRefactor the code in order to not assign to this loop counter from within the loop body.(ù°à
+d$squid:AssignmentInSubExpressionCheck³".Extract the assignment out of this expression.(³¡¼¦úÿÿÿÿ
+msquid:S1206ë"PThis class overrides "equals()" and should therefore also override "hashCode()".(İ¢êÍıÿÿÿÿ
+7squid:S1659ô"Declare "b" on a separate line.(ÊÂØÇ
+p
+squid:S135Ô	"YReduce the total number of break and continue statements in this loop to use at most one.(‘ßµé
+Rsquid:S1161":Add the "@Override" annotation above this method signature(í°
+qsquid:S2293Ş"YReplace the type specification in this constructor call with the diamond operator ("<>").(İÊŒ¶
+Š squid:ForLoopCounterChangedCheckÒ"XRefactor the code in order to not assign to this loop counter from within the loop body.(®®é‘ÿÿÿÿÿ
+7squid:S1659ë"Declare "c" on a separate line.(©ë·û
+7squid:S1659’"Declare "r" on a separate line.(Ùôíà
+Qsquid:S1161ı":Add the "@Override" annotation above this method signature(ğ…Ç
+Rsquid:S1161³":Add the "@Override" annotation above this method signature(Õ­”Š
+qsquid:S2293¸"YReplace the type specification in this constructor call with the diamond operator ("<>").(¯™®å
+fsquid:S2272‰"NAdd a "NoSuchElementException" for iteration beyond the end of the collection.(Èç•Ê
+_squid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(Âğğ
+Wsquid:S1161":Add the "@Override" annotation above this method signature(üğÇÂùÿÿÿÿ
+Š squid:ForLoopCounterChangedCheck¡"XRefactor the code in order to not assign to this loop counter from within the loop body.(¿Ä€ûúÿÿÿÿ
+Wsquid:S1161®":Add the "@Override" annotation above this method signature(üğÇÂùÿÿÿÿ
+Š squid:ForLoopCounterChangedCheckç	"XRefactor the code in order to not assign to this loop counter from within the loop body.(®®é‘ÿÿÿÿÿ
+_$squid:AssignmentInSubExpressionCheck¡".Extract the assignment out of this expression.(ù°à
+vsquid:S2293ƒ"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÍÀ¾ûÿÿÿÿ
+vsquid:S2293³"YReplace the type specification in this constructor call with the diamond operator ("<>").(³¡¼¦úÿÿÿÿ
+<squid:S1948–"$Make "hi" transient or serializable.(¦Ÿ¨Ÿ
+7squid:S1659ã"Declare "v" on a separate line.(İá¤±
+d$squid:AssignmentInSubExpressionCheckƒ".Extract the assignment out of this expression.(ÍÀ¾ûÿÿÿÿ
+… squid:ForLoopCounterChangedCheckÆ"XRefactor the code in order to not assign to this loop counter from within the loop body.(âğ€Û
+_$squid:AssignmentInSubExpressionCheck“".Extract the assignment out of this expression.(ù°à
+h squid:LabelsShouldNotBeUsedChecké";Refactor the code to remove this label and the need for it.(«àßı
+Wsquid:S1161µ":Add the "@Override" annotation above this method signature(Ş‚ÄÔıÿÿÿÿ
+qsquid:S2293ø"YReplace the type specification in this constructor call with the diamond operator ("<>").(êÄğæ
+Š squid:ForLoopCounterChangedCheck±"XRefactor the code in order to not assign to this loop counter from within the loop body.(üÛ„Ğÿÿÿÿÿ
+qsquid:S2293§"YReplace the type specification in this constructor call with the diamond operator ("<>").(Øâ’¦
+qsquid:S2293¬"YReplace the type specification in this constructor call with the diamond operator ("<>").(ØÖÌÊ
+jsquid:S3776Ï
+"RRefactor this method to reduce its Cognitive Complexity from 29 to the 15 allowed.(ÿ«ñŠ
+qsquid:S2293†"YReplace the type specification in this constructor call with the diamond operator ("<>").(¿ì‘ú
+m squid:LabelsShouldNotBeUsedCheckı";Refactor the code to remove this label and the need for it.(üªİÔøÿÿÿÿ
+p
+squid:S135Å"YReduce the total number of break and continue statements in this loop to use at most one.(´ÿÕ™
+_$squid:AssignmentInSubExpressionCheckô".Extract the assignment out of this expression.(Ôİ—ÿ
+… squid:ForLoopCounterChangedCheck¶	"XRefactor the code in order to not assign to this loop counter from within the loop body.(—¶úè
+Fsquid:S3077¤".Remove the "volatile" keyword from this field.(¸Ïïó
+8squid:S1659" Declare "ek" on a separate line.(äÏàÕ
+… squid:ForLoopCounterChangedCheckü"XRefactor the code in order to not assign to this loop counter from within the loop body.(âğ€Û
+osquid:S3776Ç"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(²‘šÂÿÿÿÿÿ
+vsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(®İşÿÿÿÿÿ

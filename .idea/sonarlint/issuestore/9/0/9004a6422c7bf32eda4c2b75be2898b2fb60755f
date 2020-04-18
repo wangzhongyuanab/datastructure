@@ -1,0 +1,6 @@
+
+[squid:S1197)"8Move the array designator from the variable to the type.(´·ÊÛúÿÿÿÿ8ž¤Ë–á-
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(ïãÐÁ8§˜‰—á-
+ˆ"squid:ClassVariableVisibilityCheck	"SMake maxSize a static final constant or non-public and provide accessors if needed.(ß˜žâ8¾­¾–á-
+Ksquid:S1444	"-Make this "public static maxSize" field final(ß˜žâ8¾­¾–á-

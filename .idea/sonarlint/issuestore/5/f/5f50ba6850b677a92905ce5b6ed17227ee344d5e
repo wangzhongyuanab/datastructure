@@ -1,0 +1,14 @@
+
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(’‘¦“8ƒœÏ×á-
+Ysquid:S2696"6Make the enclosing method "static" or remove this set.(õÇûÿÿÿÿ8Ÿô×á-
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(™¸—É8êµó×á-
+V
+squid:S106A"9Replace this use of System.out or System.err by a logger.(º¼É°8È·Öá-
+[
+squid:S106C"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8‡¸Öá-
+nsquid:CommentedOutCodeLine)"<This block of commented-out lines of code should be removed.(¬Úş‡ıÿÿÿÿ8ª¥×á-
+Ysquid:S2696?"6Make the enclosing method "static" or remove this set.(ëæûÿÿÿÿÿ8¥¯×á-
+nsquid:CommentedOutCodeLine
+"<This block of commented-out lines of code should be removed.(Ô•€¿şÿÿÿÿ8¾Û¬Öá-

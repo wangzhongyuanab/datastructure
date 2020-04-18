@@ -1,0 +1,6 @@
+
+Hsquid:S1181"%Catch Exception instead of Throwable.(‡˜ÚÚøÿÿÿÿ8•¬¿ñ€.
+Asquid:S1148"#Use a logger to log this exception.(ûâ©Ð8¸µ¼ñ€.
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(Èá·þýÿÿÿÿ8âÜ¿ñ€.
+Esquid:S2189""Add an end condition to this loop.(˜ïˆžÿÿÿÿÿ8úÌ¹ñ€.

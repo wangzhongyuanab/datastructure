@@ -1,0 +1,5 @@
+
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(Èá·þýÿÿÿÿ8®¶Çó€.
+Fsquid:S1148"#Use a logger to log this exception.(ÜÉõ¨øÿÿÿÿ8»ªËó€.
+@squid:S2189""Add an end condition to this loop.(•¹¤î8äÙÆó€.

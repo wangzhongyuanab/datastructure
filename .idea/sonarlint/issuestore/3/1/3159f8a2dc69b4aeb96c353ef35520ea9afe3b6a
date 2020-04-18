@@ -1,0 +1,13 @@
+
+|squid:S3012$"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(ŞçÂ³şÿÿÿÿ8ŞÀĞâ-
+[
+squid:S1068"9Replace this use of System.out or System.err by a logger.(¹ôÆ‰şÿÿÿÿ8²÷ßâ-
+|squid:S3012)"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(áŞù—ûÿÿÿÿ8¡šØâ-
+V
+squid:S106;"9Replace this use of System.out or System.err by a logger.(œÑß¥8Óåáâ-
+\
+squid:S106’"9Replace this use of System.out or System.err by a logger.(Ãîø–ıÿÿÿÿ8û’¤·â-
+\
+squid:S106"9Replace this use of System.out or System.err by a logger.(—Îäûøÿÿÿÿ8å°£·â-
+[
+squid:S106="9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8™¹ãâ-

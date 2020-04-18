@@ -1,0 +1,6 @@
+
+V
+squid:S106K"9Replace this use of System.out or System.err by a logger.(¥¯®«8òÄ¿¯ä-
+Isquid:S1481J"&Remove this unused "x" local variable.(ë§èŠşÿÿÿÿ8å¾¯ä-
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¡Ëà°úÿÿÿÿ8À¸¿°ä-
+esquid:UselessImportCheck"5Remove this unused import 'java.nio.charset.Charset'.(ü¶ØŸıÿÿÿÿ8†òŠ¯ä-

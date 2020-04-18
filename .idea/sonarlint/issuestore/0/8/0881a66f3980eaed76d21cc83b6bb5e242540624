@@ -1,0 +1,17 @@
+
+Ksquid:S1604s"(Make this anonymous inner class a lambda(®­ö şÿÿÿÿ8¤å‚Ôâ-
+|squid:S2293I"YReplace the type specification in this constructor call with the diamond operator ("<>").(ı ˜¤ÿÿÿÿÿ8µ÷Òâ-
+squid:S1319r"mThe type of the "ps" object should be an interface such as "List" rather than the implementation "ArrayList".(úÅµ‚ıÿÿÿÿ8ä¤şÓâ-
+jsquid:S3008"LRename this field "X" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€Šı¸8ŒòùĞâ-
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(ğÀİŒ8ŞİˆÒâ-
+jsquid:S3008"LRename this field "Y" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜ÕìÈ8ŒòùĞâ-
+Vsquid:S1197"8Move the array designator from the variable to the type.(“ûœø8ã¾¹Ñâ-
+squid:S1319H"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(´ë×ß8µ÷Òâ-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(èıõøÿÿÿÿ8á…šÒâ-
+V
+squid:S106 "9Replace this use of System.out or System.err by a logger.(âÔö³8èñÒâ-
+[
+squid:S106""9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8µ÷Òâ-
+psquid:S3776H"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(´ë×ß8µ÷Òâ-

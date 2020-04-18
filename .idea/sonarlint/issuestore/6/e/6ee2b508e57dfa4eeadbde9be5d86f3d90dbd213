@@ -1,0 +1,8 @@
+
+rsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¤«Ùà
+wsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Š×Ç°øÿÿÿÿ
+qsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(–âß
+isquid:S00116"LRename this field "M" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢†ß²üÿÿÿÿ
+Psquid:S2864E"4Iterate over the "entrySet" instead of the "keySet".(“Ü®Úøÿÿÿÿ
+/squid:S1700"Rename field "hashtable"(ü’èì
+isquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸è¹ä

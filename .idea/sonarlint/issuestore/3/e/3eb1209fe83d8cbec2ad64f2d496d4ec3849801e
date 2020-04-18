@@ -1,0 +1,11 @@
+
+Fsquid:S1148*"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8õá´Æ€.
+isquid:CommentedOutCodeLine:"<This block of commented-out lines of code should be removed.(¤š¤¸8Èï’Æ€.
+isquid:CommentedOutCodeLine'"<This block of commented-out lines of code should be removed.(¤š¤¸8õá´Æ€.
+Fsquid:S1148="#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8Èï’Æ€.
+V
+squid:S106%"9Replace this use of System.out or System.err by a logger.(“›Ê¹8õá´Æ€.
+Osquid:S16027",Remove useless curly braces around statement(‡Âúúúÿÿÿÿ8Èï’Æ€.
+V
+squid:S1068"9Replace this use of System.out or System.err by a logger.(“›Ê¹8Èï’Æ€.
+Osquid:S1602$",Remove useless curly braces around statement(‡Âúúúÿÿÿÿ8õá´Æ€.

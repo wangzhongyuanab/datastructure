@@ -1,0 +1,24 @@
+
+U
+squid:S106"9Replace this use of System.out or System.err by a logger.(…ë‘8á†äØ€.
+U
+squid:S106"9Replace this use of System.out or System.err by a logger.(…ë‘8ö†áØ€.
+U
+squid:S106 "9Replace this use of System.out or System.err by a logger.(…ë‘8£¤íØ€.
+nsquid:CommentedOutCodeLine%"<This block of commented-out lines of code should be removed.(Ÿà“±øÿÿÿÿ8ó²îØ€.
+U
+squid:S106"9Replace this use of System.out or System.err by a logger.(ïõõ	8Â€êØ€.
+Fsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8Â€êØ€.
+rsquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìŠýÿÿÿÿ8ÎŽÙØ€.
+rsquid:S00100	"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³ó˜ãúÿÿÿÿ8ÎŽÙØ€.
+rsquid:S1215"TDon't try to be smarter than the JVM, remove this call to run the garbage collector.(Ì°¬“8’§ãØ€.
+U
+squid:S106"9Replace this use of System.out or System.err by a logger.(ïõõ	8ÚößØ€.
+Hsquid:S1181"%Catch Exception instead of Throwable.(‡˜ÚÚøÿÿÿÿ8Â€êØ€.
+U
+squid:S106"9Replace this use of System.out or System.err by a logger.(ïõõ	8¥›èØ€.
+Hsquid:S1481"*Remove this unused "bytes" local variable.(Œ¹à8ÓîëØ€.
+U
+squid:S106"9Replace this use of System.out or System.err by a logger.(ïõõ	8á†äØ€.
+U
+squid:S106"9Replace this use of System.out or System.err by a logger.(…ë‘8¥›èØ€.

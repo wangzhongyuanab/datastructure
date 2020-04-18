@@ -1,0 +1,27 @@
+
+Xsquid:S1141 "5Extract this nested try block into a separate method.(ï¢ûŒûÿÿÿÿ8Ü²µ†€.
+©%squid:RedundantThrowsDeclarationCheck"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ÙØ¤Şıÿÿÿÿ8°¹ †€.
+Xsquid:S1141"5Extract this nested try block into a separate method.(ï¢ûŒûÿÿÿÿ8Ü²µ†€.
+Fsquid:S1148#"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Şá§†€.
+Fsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8˜õ¢†€.
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(°Ü©¤øÿÿÿÿ8Ï¿Ó¦€.
+isquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ï¢ûŒûÿÿÿÿ8Ğà¯†€.
+isquid:S2142 "FEither re-interrupt this method or rethrow the "InterruptedException".(ï¢ûŒûÿÿÿÿ8Ü²µ†€.
+[
+squid:S106!"9Replace this use of System.out or System.err by a logger.(şœ–şÿÿÿÿ8Ü²µ†€.
+isquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ï¢ûŒûÿÿÿÿ8Ü²µ†€.
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(şœ–şÿÿÿÿ8Şú°†€.
+Fsquid:S1148"#Use a logger to log this exception.(ï¢ûŒûÿÿÿÿ8Ü²µ†€.
+Fsquid:S1148"#Use a logger to log this exception.(ï¢ûŒûÿÿÿÿ8Ğà¯†€.
+Fsquid:S1148 "#Use a logger to log this exception.(ï¢ûŒûÿÿÿÿ8Ü²µ†€.
+dsquid:S2142""FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8Şá§†€.
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(şœ–şÿÿÿÿ8Ü²µ†€.
+Xsquid:S1141"5Extract this nested try block into a separate method.(ï¢ûŒûÿÿÿÿ8Ğà¯†€.
+dsquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8˜õ¢†€.
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(ˆÏ°…8Ï¿Ó¦€.
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(¥¨ğĞ8Ï¿Ó¦€.

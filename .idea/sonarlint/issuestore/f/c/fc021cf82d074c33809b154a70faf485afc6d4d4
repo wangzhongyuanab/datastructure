@@ -1,0 +1,44 @@
+
+[
+squid:S106 "9Replace this use of System.out or System.err by a logger.(³­Ö‰ûÿÿÿÿ8…’—¦€.
+ssquid:S00116	"ORename this field "FLAG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÎˆÍ ıÿÿÿÿ8ÇîÛ¥€.
+Fsquid:S1148U"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Ğ¼À¦€.
+©%squid:RedundantThrowsDeclarationCheck2"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ÆÎôôûÿÿÿÿ8Œ¹¦€.
+jsquid:S001122"FDefine and throw a dedicated exception instead of using a generic one.(ÆÎôôûÿÿÿÿ8Œ¹¦€.
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(…ù†æıÿÿÿÿ8Êø¦€.
+V
+squid:S106Q"9Replace this use of System.out or System.err by a logger.(ƒóâ¾8©¾¦€.
+V
+squid:S106:"9Replace this use of System.out or System.err by a logger.(“€µê8›ü´¦€.
+[
+squid:S106P"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8©¾¦€.
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(üÙšßşÿÿÿÿ8“øû¥€.
+[
+squid:S106."9Replace this use of System.out or System.err by a logger.(©¤ëûşÿÿÿÿ8Ş’¡¦€.
+[
+squid:S106)"9Replace this use of System.out or System.err by a logger.(êÌ±¢üÿÿÿÿ8…¼ª¦€.
+[
+squid:S106O"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8©¾¦€.
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(Æ¿§…üÿÿÿÿ8“É¦€.
+Fsquid:S1148I"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8…ƒ¶¦€.
+[
+squid:S106N"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8©¾¦€.
+[
+squid:S106+"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8îĞ­¦€.
+jsquid:S00112#"FDefine and throw a dedicated exception instead of using a generic one.(¶¨è·ûÿÿÿÿ8Æ÷™¦€.
+jsquid:S001016"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(éœßâøÿÿÿÿ
+Fsquid:S1148>"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ëĞµ¦€.
+[
+squid:S106*"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8îĞ­¦€.
+[
+squid:S106C"9Replace this use of System.out or System.err by a logger.(Š”ù™ûÿÿÿÿ8…ƒ¶¦€.
+jsquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(ıºˆ¾ıÿÿÿÿ8—ÿ¥€.
+[
+squid:S106D"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8àÈ¦€.
+[
+squid:S106E"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8àÈ¦€.
+isquid:S2142M"FEither re-interrupt this method or rethrow the "InterruptedException".(ï¢ûŒûÿÿÿÿ8‘…½¦€.
+Fsquid:S1148M"#Use a logger to log this exception.(ï¢ûŒûÿÿÿÿ8‘…½¦€.

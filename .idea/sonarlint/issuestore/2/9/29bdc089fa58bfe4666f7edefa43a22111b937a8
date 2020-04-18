@@ -1,0 +1,27 @@
+
+Asquid:S1148"#Use a logger to log this exception.(¿ÁÁÍ8è”áÏÿ-
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÁŒªÍ8œ€ìÏÿ-
+Asquid:S1148!"#Use a logger to log this exception.(¿ÁÁÍ8Ú„´Ç€.
+Asquid:S1148"#Use a logger to log this exception.(õ÷¸¦8ş™íÏÿ-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(Å¤«‡ûÿÿÿÿ8·¨åÏÿ-
+Fsquid:S1148,"#Use a logger to log this exception.(ûºËıúÿÿÿÿ8»öÏÿ-
+dsquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(õ÷¸¦8ş™íÏÿ-
+[
+squid:S106%"9Replace this use of System.out or System.err by a logger.(Œ·ì¼ûÿÿÿÿ8›éĞÿ-
+V
+squid:S106#"9Replace this use of System.out or System.err by a logger.(ÓĞ—º8Ñğ€Ğÿ-
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(éé¾Å8¡×íÏÿ-
+[
+squid:S106*"9Replace this use of System.out or System.err by a logger.(˜ÚÁÊúÿÿÿÿ8»öÏÿ-
+dsquid:S2142!"FEither re-interrupt this method or rethrow the "InterruptedException".(¿ÁÁÍ8Ú„´Ç€.
+V
+squid:S106."9Replace this use of System.out or System.err by a logger.(Í—Óõ8Ë‡Ğÿ-
+dsquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(¿ÁÁÍ8è”áÏÿ-
+isquid:S2142,"FEither re-interrupt this method or rethrow the "InterruptedException".(ûºËıúÿÿÿÿ8»öÏÿ-
+[
+squid:S106/"9Replace this use of System.out or System.err by a logger.(†ï²¡ÿÿÿÿÿ8Ú»Ğÿ-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(˜ÚÁÊúÿÿÿÿ8¥ßòÏÿ-

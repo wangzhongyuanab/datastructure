@@ -1,0 +1,5 @@
+
+msquid:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(›¯’g8ÁªòžÝ-
+vsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(›¯’g8ÁªòžÝ-
+psquid:S3776
+"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(Ñù£–8ÁªòžÝ-

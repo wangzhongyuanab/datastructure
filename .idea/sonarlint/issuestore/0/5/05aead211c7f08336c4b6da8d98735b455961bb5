@@ -1,0 +1,14 @@
+
+dsquid:S2142 "FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8¹ÇÀí.
+Fsquid:S1148+"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Êë¥î.
+Fsquid:S11485"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8é¶Áí.
+Fsquid:S1148!"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¹ÇÀí.
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ú™Ø¹8ãÊ´í.
+Fsquid:S1148?"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8êÁ§î.
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ú™Ø¹8ö­Èğ.
+dsquid:S2142*"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8Êë¥î.
+dsquid:S21424"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8é¶Áí.
+psquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(Çµí‘8êÁ§î.
+dsquid:S2142>"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8êÁ§î.

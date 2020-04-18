@@ -1,0 +1,13 @@
+
+?squid:S1148$"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+asquid:S2095"JUse try-with-resources or close this "ServerSocket" in a "finally" clause.(«‚†
+N
+squid:S106"9Replace this use of System.out or System.err by a logger.(‚š‰1
+Fsquid:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(µïÊæúÿÿÿÿ
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(Æá…
+?squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(åÒ¡ü

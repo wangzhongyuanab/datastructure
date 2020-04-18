@@ -1,0 +1,6 @@
+
+Rsquid:S2864@"4Iterate over the "entrySet" instead of the "keySet".(ËƒÏá8‰¶’â-
+[
+squid:S106U"9Replace this use of System.out or System.err by a logger.(–¼Ã—ùÿÿÿÿ8•ò½â-
+asquid:S1155<">Use isEmpty() to check whether the collection is empty or not.(©ÙÏğşÿÿÿÿ8õ‹â-
+asquid:S1155J">Use isEmpty() to check whether the collection is empty or not.(úÛ¡şùÿÿÿÿ8»êœâ-

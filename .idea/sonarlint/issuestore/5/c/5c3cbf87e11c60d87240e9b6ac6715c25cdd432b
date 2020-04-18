@@ -1,0 +1,13 @@
+
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(ıœ˜”úÿÿÿÿ8Ê¤§åñ-
+‹"squid:ClassVariableVisibilityCheck	"QMake value a static final constant or non-public and provide accessors if needed.(Öµ×şÿÿÿÿ8¹—”åñ-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÿœö¬ÿÿÿÿÿ8œ“Ååñ-
+Wsquid:S3252"4Use static access with "com.SuperClass" for "value".(ÿœö¬ÿÿÿÿÿ8ÜÀÅåñ-
+Nsquid:S1444	"+Make this "public static value" field final(Öµ×şÿÿÿÿ8¹—”åñ-
+_squid:UselessImportCheck"4Remove this unused import 'java.lang.reflect.Field'.(„‡Áú8œ“Ååñ-
+]squid:S1118":Add a private constructor to hide the implicit public one.(»°­Áüÿÿÿÿ8ì““åñ-
+Ksquid:S1481"(Remove this unused "sca" local variable.(§²Úûÿÿÿÿ8÷—Éåñ-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(†æôøúÿÿÿÿ8ì““åñ-

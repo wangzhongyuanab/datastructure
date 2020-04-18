@@ -1,0 +1,28 @@
+
+O
+squid:S1066"9Replace this use of System.out or System.err by a logger.(ÇÅÅ‡
+T
+squid:S106H"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+T
+squid:S106I"9Replace this use of System.out or System.err by a logger.(°‰è úÿÿÿÿ
+T
+squid:S1068"9Replace this use of System.out or System.err by a logger.(Õ­µûÿÿÿÿ
+O
+squid:S106L"9Replace this use of System.out or System.err by a logger.(‘Ë£
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(‘Ë£
+T
+squid:S1065"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+T
+squid:S106N"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(¢Ã¦µúÿÿÿÿ
+msquid:S34578"Q%n should be used in place of \n to produce the platform-specific line separator.(Õ­µûÿÿÿÿ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+Tsquid:S1197!"8Move the array designator from the variable to the type.(Ççíúÿÿÿÿ
+Osquid:S1197
+"8Move the array designator from the variable to the type.(ß“ßí
+T
+squid:S106:"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+isquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(Çµí‘

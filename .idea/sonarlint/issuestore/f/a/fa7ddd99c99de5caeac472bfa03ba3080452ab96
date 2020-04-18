@@ -1,0 +1,19 @@
+
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ï¡Êï
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8ÔÁû­.
+zsquid:S2177"WRename this method; there is a "private" method in the parent class with the same name.(ïşŸûÿÿÿÿ8¥‡®.
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ôìÜòúÿÿÿÿ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(óú¸Öûÿÿÿÿ
+Esquid:S1481"'Remove this unused "s1" local variable.(¬¹§8úìú­.
+usquid:S1171"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(€£íÍ
+Asquid:S1068"%Remove this unused "i" private field.(¯üÛÅúÿÿÿÿ
+Asquid:S1068"%Remove this unused "j" private field.(¾à©•üÿÿÿÿ
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(öìŠ©
+Jsquid:S1481"'Remove this unused "s2" local variable.( ŒÚ¦ÿÿÿÿÿ8ÔÁû­.

@@ -1,0 +1,9 @@
+
+U
+squid:S1061"9Replace this use of System.out or System.err by a logger.(ÇÑ×8íªáàß-
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(±Ò‚Ï8öË‹îß-
+nsquid:CommentedOutCodeLine
+"<This block of commented-out lines of code should be removed.(ßá’¾ıÿÿÿÿ8öË‹îß-
+‹ squid:ForLoopCounterChangedCheck("XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ8¥Ûíîß-
+‹ squid:ForLoopCounterChangedCheck"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ8‘îß-
+Ksquid:S4274$"(Replace this assert with a proper check.(íïú¢ùÿÿÿÿ8ã‹äîß-

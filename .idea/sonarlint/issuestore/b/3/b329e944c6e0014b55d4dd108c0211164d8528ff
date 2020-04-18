@@ -1,0 +1,11 @@
+
+ysquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¯ëŞÛ8‡¯ˆùÿ-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ê•ûüÿÿÿÿ8ê–ñøÿ-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(óÅ†ôÿÿÿÿÿ8Ûáşøÿ-
+U
+squid:S106"9Replace this use of System.out or System.err by a logger.(óÇï8Ûáşøÿ-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÙåÄßùÿÿÿÿ8ê–ñøÿ-
+jsquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(¡Íûÿÿÿÿ8Òîñøÿ-

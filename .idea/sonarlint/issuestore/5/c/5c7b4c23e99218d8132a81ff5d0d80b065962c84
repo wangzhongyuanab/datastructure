@@ -1,0 +1,10 @@
+
+Xsquid:S2209"5Change this instance-reference to a static reference.(Õ²ü®ÿÿÿÿÿ8›äçÆ.
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(Çƒ€Œüÿÿÿÿ8¢„æÆ.
+]squid:HiddenFieldCheck"4Rename "i" which hides the field declared at line 5.(»ŸÜš8€ØŞÆ.
+|squid:S1171"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ8€ØŞÆ.
+Tsquid:S2696"6Make the enclosing method "static" or remove this set.(·çèó8¸ãßÆ.
+Xsquid:S2209"5Change this instance-reference to a static reference.(Çƒ€Œüÿÿÿÿ8Ï„çÆ.
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(Õ²ü®ÿÿÿÿÿ8Ï„çÆ.

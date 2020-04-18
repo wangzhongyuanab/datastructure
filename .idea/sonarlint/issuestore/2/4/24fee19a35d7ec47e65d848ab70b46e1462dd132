@@ -1,0 +1,15 @@
+
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(ş»±Û8˜Á÷­.
+Hsquid:S1068"%Remove this unused "j" private field.(¾à©•üÿÿÿÿ8Öáö­.
+U
+squid:S106"9Replace this use of System.out or System.err by a logger.(§²ÈL8¬¥ò­.
+[
+squid:S106
+"9Replace this use of System.out or System.err by a logger.(êÑÍ£ÿÿÿÿÿ8Öáö­.
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(¿‚³øÿÿÿÿ8Öáö­.
+Hsquid:S1068"%Remove this unused "i" private field.(¯üÛÅúÿÿÿÿ8Ààñ­.
+|squid:S1171"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ8Öáö­.
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ó°ÌÅúÿÿÿÿ8Öáö­.

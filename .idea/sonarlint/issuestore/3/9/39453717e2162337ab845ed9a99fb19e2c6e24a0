@@ -1,0 +1,16 @@
+
+^squid:S00112""FDefine and throw a dedicated exception instead of using a generic one.(Œêé
+N
+squid:S106"9Replace this use of System.out or System.err by a logger.(ıÀV
+U
+squid:S106Ã"9Replace this use of System.out or System.err by a logger.(»Šó£ûÿÿÿÿ
+isquid:S3776+"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(“–ış
+?squid:S1148O"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+Jsquid:S1135‚"2Complete the task associated to this TODO comment.(èöû¬
+U
+squid:S106£"9Replace this use of System.out or System.err by a logger.(Ñëş®şÿÿÿÿ
+P
+squid:S106€"9Replace this use of System.out or System.err by a logger.(´à„ñ
+csquid:S00112T"FDefine and throw a dedicated exception instead of using a generic one.(é¼³çûÿÿÿÿ
+Qsquid:S1141A"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+isquid:S3776n"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(Ş†Úƒ

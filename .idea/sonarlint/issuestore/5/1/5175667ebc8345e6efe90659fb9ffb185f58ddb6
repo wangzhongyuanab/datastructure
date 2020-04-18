@@ -1,0 +1,13 @@
+
+?squid:S1148"#Use a logger to log this exception.(А…‘Еэ€€€€
+O
+squid:S106	"9Replace this use of System.out or System.err by a logger.(©П„“
+]squid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(д†єА
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(≈евя
+Ssquid:S3252"<Use static access with "java.lang.Thread" for "interrupted".(≈евя
+Lsquid:S2209"5Change this instance-reference to a static reference.(≈евя
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(≈евя
+Ssquid:S3252"<Use static access with "java.lang.Thread" for "interrupted".(≈евя
+Lsquid:S2209"5Change this instance-reference to a static reference.(≈евя

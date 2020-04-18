@@ -1,0 +1,4 @@
+
+wsquid:S3012"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(‹º÷‡8ËÄÏ Þ-
+|squid:S3012a"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(šùÅÿþÿÿÿÿ8™ìÑšÝ-
+nsquid:S00100Õ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ™ãŽ8ï”ä—Þ-

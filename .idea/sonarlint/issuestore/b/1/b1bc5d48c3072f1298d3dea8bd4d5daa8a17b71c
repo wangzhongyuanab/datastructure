@@ -1,0 +1,15 @@
+
+t
+squid:S135$"YReduce the total number of break and continue statements in this loop to use at most one.(…¬å¿ıÿÿÿÿ
+N
+squid:S1065"9Replace this use of System.out or System.err by a logger.(ıÀV
+T
+squid:S1066"9Replace this use of System.out or System.err by a logger.(Ï‘øĞıÿÿÿÿ
+?squid:S1148B"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(îá ÿøÿÿÿÿ
+>squid:S2189""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ
+msquid:S2095"QUse try-with-resources or close this "ServerSocketChannel" in a "finally" clause.(ãöŒÎüÿÿÿÿ
+nsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 33 to the 15 allowed.(ÙØ¤Şıÿÿÿÿ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ûÃÍúÿÿÿÿ

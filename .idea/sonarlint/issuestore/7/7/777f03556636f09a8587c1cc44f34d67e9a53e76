@@ -1,0 +1,16 @@
+
+wsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ä¾Õëúÿÿÿÿ
+9squid:S2189-""Add an end condition to this loop.(øº–¡
+Esquid:S1444".Make this "public static selector" field final(Šý“ç
+T
+squid:S106e"9Replace this use of System.out or System.err by a logger.(¹Üëêùÿÿÿÿ
+T
+squid:S106;"9Replace this use of System.out or System.err by a logger.(²™‹çùÿÿÿÿ
+‚"squid:ClassVariableVisibilityCheck"TMake selector a static final constant or non-public and provide accessors if needed.(Šý“ç
+xsquid:S1450"\Remove the "socketChannel" field and declare it as a local variable in the relevant methods.(œÏì¶ùÿÿÿÿ
+bsquid:CommentedOutCodeLinec"<This block of commented-out lines of code should be removed.(†€éˆ
+Qsquid:S2209+"5Change this instance-reference to a static reference.(˜Ïø€úÿÿÿÿ
+O
+squid:S106""9Replace this use of System.out or System.err by a logger.(§úÝˆ
+O
+squid:S106T"9Replace this use of System.out or System.err by a logger.(º†¾¸

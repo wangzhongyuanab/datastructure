@@ -1,0 +1,18 @@
+
+Vsquid:S1197"8Move the array designator from the variable to the type.(ÓÔÌÉ8§É±Ùá-
+[
+squid:S106!"9Replace this use of System.out or System.err by a logger.(ßÓÔ±ùÿÿÿÿ8¦†€æá-
+wsquid:S2293("YReplace the type specification in this constructor call with the diamond operator ("<>").(ƒı¿°8á±²Øá-
+[
+squid:S106 "9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8‰Û€æá-
+[
+squid:S106I"9Replace this use of System.out or System.err by a logger.(ä„éúÿÿÿÿ8š•˜Ûá-
+V
+squid:S106v"9Replace this use of System.out or System.err by a logger.(ø–„˜8Åªååá-
+[
+squid:S106j"9Replace this use of System.out or System.err by a logger.(±ë´Âùÿÿÿÿ8®ÚÈåá-
+W
+squid:S106«"9Replace this use of System.out or System.err by a logger.(–Åã8İ¡­Ùá-
+psquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓÔÌÉ8§É±Ùá-
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(ö¤Ş´8¢½Ûá-

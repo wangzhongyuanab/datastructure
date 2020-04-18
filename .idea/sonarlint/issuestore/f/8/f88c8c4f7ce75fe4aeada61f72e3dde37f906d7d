@@ -1,0 +1,9 @@
+
+Xsquid:S2259"AA "NullPointerException" could be thrown; "obj" is nullable here.(îÅ’Ò
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(âÛ¦ëıÿÿÿÿ
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(©Åƒéüÿÿÿÿ
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(¡œ®Ó
+6squid:S2097"Add a type test to this method.(ÜÑã
+~"squid:ClassVariableVisibilityCheck"PMake name a static final constant or non-public and provide accessors if needed.( şÍ¾

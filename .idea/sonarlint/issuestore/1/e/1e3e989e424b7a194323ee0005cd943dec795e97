@@ -1,0 +1,9 @@
+
+\squid:UselessImportCheck",Remove this unused import 'java.io.Console'.(ŽæÅªýÿÿÿÿ8’Ã¦´ö-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ã”…ªûÿÿÿÿ8¥¥äšò-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(ãŒÂÔøÿÿÿÿ8ÞÆãšò-
+Bsquid:S1659	"Declare "j" on a separate line.(Çöµ»øÿÿÿÿ8Ÿ†Üšò-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(´‹¹öþÿÿÿÿ8¥¥äšò-

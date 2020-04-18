@@ -1,0 +1,15 @@
+
+‚"squid:ClassVariableVisibilityCheck8"OMake key a static final constant or non-public and provide accessors if needed.(·¢¼Òüÿÿÿÿ
+"squid:ClassVariableVisibilityCheck9"QMake value a static final constant or non-public and provide accessors if needed.(çªÆà
+ƒ"squid:ClassVariableVisibilityCheck;"PMake next a static final constant or non-public and provide accessors if needed.(±±èÃøÿÿÿÿ
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(©Åƒéüÿÿÿÿ
+`squid:UselessImportCheck"<Remove this unused import 'java.nio.channels.SocketChannel'.(Í¾’Õ
+lsquid:UselessImportCheck"CRemove this unused import 'java.util.concurrent.ConcurrentHashMap'.(ÓŠÓøúÿÿÿÿ
+Wsquid:UselessImportCheck".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ
+`squid:UselessImportCheck"7Remove this unused import 'java.net.InetSocketAddress'.(·¬ð¶ýÿÿÿÿ
+Ysquid:UselessImportCheck"0Remove this unused import 'java.nio.ByteBuffer'.(¿¢×±úÿÿÿÿ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(Éª›Šüÿÿÿÿ
+T
+squid:S106!"9Replace this use of System.out or System.err by a logger.(Éª›Šüÿÿÿÿ
+%squid:RedundantThrowsDeclarationCheck$"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(œû¿Ø

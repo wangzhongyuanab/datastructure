@@ -1,0 +1,13 @@
+
+Fsquid:S1148O"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ç½ÄØŠ.
+Ssquid:S1191"5Use classes from the Java API instead of Sun classes.(éª‚€8ç½ÄØŠ.
+U
+squid:S106D"9Replace this use of System.out or System.err by a logger.(ó«øA8ç½ÄØŠ.
+dsquid:S2142N"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ç½ÄØŠ.
+[
+squid:S106R"9Replace this use of System.out or System.err by a logger.(ğÓÄñùÿÿÿÿ8ç½ÄØŠ.
+[
+squid:S106J"9Replace this use of System.out or System.err by a logger.(éË¼Úøÿÿÿÿ8ç½ÄØŠ.
+[
+squid:S106Z"9Replace this use of System.out or System.err by a logger.(™Ö–ÿÿÿÿÿ8ç½ÄØŠ.
+Msquid:S00108")Either remove or fill this block of code.(±Ÿ—±ÿÿÿÿÿ8Í–ÛØŠ.

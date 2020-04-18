@@ -1,0 +1,10 @@
+
+isquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ûºËıúÿÿÿÿ8Ö¾Ÿÿÿ-
+Fsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ÅÒšÿÿ-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(ß²¥ğúÿÿÿÿ8Î›ÿÿ-
+Fsquid:S1148"#Use a logger to log this exception.(ûºËıúÿÿÿÿ8Ö¾Ÿÿÿ-
+dsquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ÆÒšÿÿ-
+Xsquid:S1141"5Extract this nested try block into a separate method.(ûºËıúÿÿÿÿ8Ö¾Ÿÿÿ-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ï°µúÿÿÿÿ8¢²¤ÿÿ-

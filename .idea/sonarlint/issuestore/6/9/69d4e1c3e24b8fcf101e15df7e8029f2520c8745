@@ -1,0 +1,8 @@
+
+U
+squid:S106,"9Replace this use of System.out or System.err by a logger.(ğ•š&8…îã-
+psquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÎÄ¶Ñ8åÉ†ã-
+psquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘¤¶Ò8åÉ†ã-
+usquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ùáµÔøÿÿÿÿ8³„ã-
+usquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 30 to the 15 allowed.(à©–®ùÿÿÿÿ8Ç›®ã-
+usquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŸÑŸŞüÿÿÿÿ8åÉ†ã-

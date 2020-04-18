@@ -1,0 +1,16 @@
+
+jsquid:UselessImportCheck	"ARemove this unused import 'java.util.concurrent.ExecutorService'.(æ÷–£ùÿÿÿÿ
+N
+squid:S106B"9Replace this use of System.out or System.err by a logger.(Ñùè+
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ûÃÍúÿÿÿÿ
+nsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 31 to the 15 allowed.(ÙØ¤Şıÿÿÿÿ
+N
+squid:S106A"9Replace this use of System.out or System.err by a logger.(ıÀV
+>squid:S2189 ""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ
+O
+squid:S1062"9Replace this use of System.out or System.err by a logger.(ºü‡
+Nsquid:S1135C"2Complete the task associated to this TODO comment.(¤§ì»úÿÿÿÿ
+bsquid:CommentedOutCodeLineN"<This block of commented-out lines of code should be removed.(†€éˆ
+dsquid:UselessImportCheck
+";Remove this unused import 'java.util.concurrent.Executors'.(äåÒÛÿÿÿÿÿ

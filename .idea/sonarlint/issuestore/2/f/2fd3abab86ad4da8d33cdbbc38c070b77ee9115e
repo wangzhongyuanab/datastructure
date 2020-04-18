@@ -1,0 +1,8 @@
+
+Esquid:S2189
+""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ8ÙÁ÷û€.
+Fsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8İÊùû€.
+?squid:S1643"Use a StringBuilder instead.(ÄØÄœûÿÿÿÿ8ÙÁ÷û€.
+Hsquid:S1181"%Catch Exception instead of Throwable.(‡˜ÚÚøÿÿÿÿ8İÊùû€.
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(üºÓëøÿÿÿÿ8Éçòû€.

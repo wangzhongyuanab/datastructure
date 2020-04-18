@@ -1,0 +1,8 @@
+
+U
+squid:S106"9Replace this use of System.out or System.err by a logger.(™ú¹H8øÊ¶ÙŠ.
+V
+squid:S106="9Replace this use of System.out or System.err by a logger.(Ó¿å¥8çóÂÙŠ.
+vsquid:UselessImportCheck"FRemove this unused import 'java.util.concurrent.atomic.AtomicInteger'.(¿êäœøÿÿÿÿ8­¯½ÙŠ.
+[
+squid:S106,"9Replace this use of System.out or System.err by a logger.(ãÊÿÿÿÿÿ8ªå¾ÙŠ.

@@ -1,0 +1,12 @@
+
+[
+squid:S106G"9Replace this use of System.out or System.err by a logger.( ΞΥΨÿÿÿÿÿ8Ώγια-
+tsquid:S3457G"Q%n should be used in place of \n to produce the platform-specific line separator.( ΞΥΨÿÿÿÿÿ8ϊÿμια-
+nsquid:CommentedOutCodeLine'"<This block of commented-out lines of code should be removed.(ΌΠ²ύωÿÿÿÿ8ΰσΓια-
+hsquid:CommentedOutCodeLine<"<This block of commented-out lines of code should be removed.(ιΌ8»φΪια-
+[
+squid:S1067"9Replace this use of System.out or System.err by a logger.(ªΣΌαώÿÿÿÿ8γ¦‘ια-
+psquid:S3776
+"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(Ηµν‘8γΖια-
+[
+squid:S1065"9Replace this use of System.out or System.err by a logger.(ΘΣÿÿÿÿÿ8υαια-

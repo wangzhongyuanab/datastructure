@@ -1,0 +1,8 @@
+
+[
+squid:S106H"9Replace this use of System.out or System.err by a logger.(¹¦…‡úÿÿÿÿ8ËĞºı.
+\squid:UselessImportCheck"1Remove this unused import 'java.util.Comparator'.(î¹ó¹8ÓÉÂı.
+qsquid:S1602F"SRemove useless curly braces around statement and then remove useless return keyword(ˆûŒÁ8¶¾Åı.
+qsquid:S1602E"SRemove useless curly braces around statement and then remove useless return keyword(Áı¢Š8Ñõ³ı.
+vsquid:S1602D"SRemove useless curly braces around statement and then remove useless return keyword(ºüå‰şÿÿÿÿ8Ö¨ı.
+vsquid:S1602C"SRemove useless curly braces around statement and then remove useless return keyword(ÖŞ”¢üÿÿÿÿ8õ×Œı.

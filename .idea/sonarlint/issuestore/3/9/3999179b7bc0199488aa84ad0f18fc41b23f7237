@@ -1,0 +1,9 @@
+
+Asquid:S1148
+"#Use a logger to log this exception.(ל¸û8ֹקע€.
+dsquid:S2142
+"FEither re-interrupt this method or rethrow the "InterruptedException".(ל¸û8ֹקע€.
+Ssquid:S1191	"5Use classes from the Java API instead of Sun classes.(חˆאת8ױניע€.
+Msquid:S1481"/Remove this unused "byteBuffer" local variable.(עÝװ—8ֹקע€.
+V
+squid:S106	"9Replace this use of System.out or System.err by a logger.(חˆאת8ױניע€.

@@ -1,0 +1,8 @@
+
+Rsquid:S28647"4Iterate over the "entrySet" instead of the "keySet".(–ÜãÁ8€ÖÕÅ‹.
+psquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 27 to the 15 allowed.(ÖÅ£ 8ëÕÅ‹.
+Zsquid:UnusedPrivateMethod".Remove this unused private "getServer" method.(ÖÅ£ 8ÿ±¸Å‹.
+]squid:S1118":Add a private constructor to hide the implicit public one.(€ğµ›úÿÿÿÿ8ÿ±¸Å‹.
+wsquid:S2293""YReplace the type specification in this constructor call with the diamond operator ("<>").(ÂÅµö8éÑÅ‹.
+Asquid:S21194"Save and re-use this "Random".(îÔ¡¥øÿÿÿÿ8€ÖÕÅ‹.
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(´ÚÛê

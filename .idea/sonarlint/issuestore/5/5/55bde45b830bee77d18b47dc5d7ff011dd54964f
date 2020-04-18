@@ -1,0 +1,14 @@
+
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(Â’äáøÿÿÿÿ8„°ƒÚ€.
+U
+squid:S106"9Replace this use of System.out or System.err by a logger.(ïõõ	8Ó—ŠÚ€.
+rsquid:S1215"TDon't try to be smarter than the JVM, remove this call to run the garbage collector.(Ì°¬“8Ø‡Ú€.
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(ü£8±“ˆÚ€.
+U
+squid:S106"9Replace this use of System.out or System.err by a logger.(ïõõ	8ï¸‚Ú€.
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(Â’äáøÿÿÿÿ8ŞºˆÚ€.
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(ü£8†ŒƒÚ€.

@@ -1,0 +1,15 @@
+
+[
+squid:S106	"9Replace this use of System.out or System.err by a logger.(ÁËª¦ûÿÿÿÿ8ÊêÓôÿ-
+dsquid:S2142H"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8þ –õÿ-
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(®£±ˆ8ÿŽˆõÿ-
+¤%squid:RedundantThrowsDeclarationCheck"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(²ÑÛ¤8ž´Õôÿ-
+esquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(²ÑÛ¤8ž´Õôÿ-
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(ö½ýí8ž´Õôÿ-
+Fsquid:S1148A"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8…ÛÝôÿ-
+Fsquid:S1148I"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8þ –õÿ-
+Fsquid:S1148:"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8…ÛÝôÿ-
+V
+squid:S106%"9Replace this use of System.out or System.err by a logger.(»¬æ˜8µ¡Šõÿ-

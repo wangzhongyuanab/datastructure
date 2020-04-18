@@ -1,0 +1,7 @@
+
+Qsquid:S3077".Remove the "volatile" keyword from this field.(…÷·µÿÿÿÿÿ8âçÐÍÿ-
+Jsquid:S1612"",Replace this lambda with a method reference.(¥—ýð8ŸÍ…Íÿ-
+Jsquid:S1602"",Remove useless curly braces around statement(¥—ýð8ŸÍ…Íÿ-
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ï£ÝÂ8÷ËÔÌÿ-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(çôÀ¨ÿÿÿÿÿ8©ÍÌÿ-

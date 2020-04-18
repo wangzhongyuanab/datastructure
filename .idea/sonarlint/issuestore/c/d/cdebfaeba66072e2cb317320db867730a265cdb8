@@ -1,0 +1,5 @@
+
+žsquid:S2681"{This statement will not be executed conditionally; only the first statement will be. The rest will execute unconditionally.(½‹è‘ûÿÿÿÿ8É»÷™ê-
+Esquid:S1659""Declare "high" on a separate line.(’Ââ‹øÿÿÿÿ8Ü’ÿ™ê-
+Rsquid:EmptyStatementUsageCheck"Remove this empty statement.(½‹è‘ûÿÿÿÿ8É»÷™ê-
+psquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 32 to the 15 allowed.(ÅÆúœ8ßÊ„šê-

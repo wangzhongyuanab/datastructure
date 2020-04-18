@@ -1,0 +1,17 @@
+
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(µˆœÑ8ñÙÜ.
+^squid:CallToDeprecatedMethod"/Remove this use of "Integer"; it is deprecated.(®ê›8ñÙÜ.
+?squid:S2129"!Remove this "Integer" constructor(®ê›8ñÙÜ.
+^squid:CallToDeprecatedMethod"/Remove this use of "Integer"; it is deprecated.(®ê›8ñÙÜ.
+rsquid:S1215"TDon't try to be smarter than the JVM, remove this call to run the garbage collector.(Ì°¬“8ñÙÜ.
+?squid:S2129"!Remove this "Integer" constructor(®ê›8ñÙÜ.
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(µˆœÑ8ñÙÜ.
+V
+squid:S106""9Replace this use of System.out or System.err by a logger.(µˆœÑ8ñÙÜ.
+Ysquid:UnusedPrivateMethod".Remove this unused private "myHashmap" method.(ßşâ"8ñÙÜ.
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(…›Óøÿÿÿÿ8ñÙÜ.
+rsquid:S1215!"TDon't try to be smarter than the JVM, remove this call to run the garbage collector.(Ì°¬“8ñÙÜ.
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(µˆœÑ8ñÙÜ.

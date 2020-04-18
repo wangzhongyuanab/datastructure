@@ -1,0 +1,11 @@
+
+[
+squid:S106
+"9Replace this use of System.out or System.err by a logger.(â±æıÿÿÿÿ8ÙĞşÿ-
+Fsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ÊæÛşÿ-
+Fsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ÊæÛşÿ-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ğ¶šÖüÿÿÿÿ8¥®Øşÿ-
+dsquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ÊæÛşÿ-
+gsquid:S2147"DCombine this catch with the one at line 19, which has the same body.(†«”Ïüÿÿÿÿ8ÊæÛşÿ-
+Jsquid:S1602	",Remove useless curly braces around statement(ıñî©8ÙĞşÿ-

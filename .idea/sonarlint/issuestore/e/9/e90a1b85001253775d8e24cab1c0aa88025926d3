@@ -1,0 +1,4 @@
+
+Qsquid:UselessImportCheck".Remove this unused import 'java.util.HashSet'.(Κ‚κX
+gsquid:S2259"KA "NullPointerException" could be thrown; "majorityEntry" is nullable here.(ήθώώÿÿÿÿ
+psquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(φ―ÿΣ

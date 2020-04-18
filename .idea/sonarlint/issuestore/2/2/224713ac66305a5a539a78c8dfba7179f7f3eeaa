@@ -1,0 +1,21 @@
+
+Fsquid:S1148%"#Use a logger to log this exception.(˜‹Öÿÿÿÿÿ8àÚ¼øÿ-
+Jsquid:S1602N",Remove useless curly braces around statement(¥—ığ8é«÷ÿ-
+Xsquid:S1141"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8Ä€—øÿ-
+isquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(˜‹Öÿÿÿÿÿ8Ä€—øÿ-
+Fsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8êù•øÿ-
+isquid:S2142%"FEither re-interrupt this method or rethrow the "InterruptedException".(˜‹Öÿÿÿÿÿ8àÚ¼øÿ-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(×ˆ¿­üÿÿÿÿ8Ä€—øÿ-
+[
+squid:S106""9Replace this use of System.out or System.err by a logger.(ä‘Šªÿÿÿÿÿ8ŞÛøÿ-
+Fsquid:S1148"#Use a logger to log this exception.(˜‹Öÿÿÿÿÿ8Ä€—øÿ-
+U
+squid:S106"9Replace this use of System.out or System.err by a logger.(·©³U8Ä€—øÿ-
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(äñğÃ8Ÿú÷öÿ-
+[
+squid:S106&"9Replace this use of System.out or System.err by a logger.(ÁÂ‡¾øÿÿÿÿ8ŞÛøÿ-
+Qsquid:S3077".Remove the "volatile" keyword from this field.(ôé×±úÿÿÿÿ8ÿ—ñöÿ-
+Xsquid:S1141$"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8àÚ¼øÿ-
+Jsquid:S1602C",Remove useless curly braces around statement(¥—ığ8ı³—÷ÿ-
+Fsquid:S1148("#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8 Ò³øÿ-
