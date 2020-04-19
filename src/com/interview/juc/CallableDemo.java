@@ -3,7 +3,6 @@ package com.interview.juc;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
-import java.util.concurrent.FutureTask;
 
 class MyThread implements Callable<Integer>{
 

@@ -135,7 +135,7 @@ import sun.misc.SharedSecrets;
  * @see     Hashtable
  * @since   1.2
  */
-public class HashMap<K,V> extends AbstractMap<K,V>
+public class  HashMap<K,V> extends AbstractMap<K,V>
         implements Map<K,V>, Cloneable, Serializable {
 
     private static final long serialVersionUID = 362498820763181265L;
@@ -233,7 +233,7 @@ public class HashMap<K,V> extends AbstractMap<K,V>
     /**
      * The default initial capacity - MUST be a power of two.
      *
-     * È±Ê¡table´óÐ¡
+     * È±Ê¡tableï¿½ï¿½Ð¡
      */
     static final int DEFAULT_INITIAL_CAPACITY = 1 << 4; // aka 16
 
@@ -242,14 +242,14 @@ public class HashMap<K,V> extends AbstractMap<K,V>
      * by either of the constructors with arguments.
      * MUST be a power of two <= 1<<30.
      *
-     * table×î´ó³¤¶È
+     * tableï¿½ï¿½ó³¤¶ï¿½
      */
     static final int MAXIMUM_CAPACITY = 1 << 30;
 
     /**
      * The load factor used when none specified in constructor.
      *
-     * È±Ê¡¸ºÔØÒò×Ó´óÐ¡
+     * È±Ê¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó´ï¿½Ð¡
      */
     static final float DEFAULT_LOAD_FACTOR = 0.75f;
 
@@ -261,7 +261,7 @@ public class HashMap<K,V> extends AbstractMap<K,V>
      * tree removal about conversion back to plain bins upon
      * shrinkage.
      *
-     * Ê÷»¯ãÐÖµ
+     * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµ
      */
     static final int TREEIFY_THRESHOLD = 8;
 
@@ -270,7 +270,7 @@ public class HashMap<K,V> extends AbstractMap<K,V>
      * resize operation. Should be less than TREEIFY_THRESHOLD, and at
      * most 6 to mesh with shrinkage detection under removal.
      *
-     * Ê÷½µ¼¶³ÆÎªÁ´±íµÄãÐÖµ
+     * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµ
      */
     static final int UNTREEIFY_THRESHOLD = 6;
 
@@ -280,7 +280,7 @@ public class HashMap<K,V> extends AbstractMap<K,V>
      * Should be at least 4 * TREEIFY_THRESHOLD to avoid conflicts
      * between resizing and treeification thresholds.
      *
-     * Ê÷»¯µÄÁíÒ»¸ö²ÎÊý£¬µ±¹þÏ£±íÖÐµÄËùÓÐÔªËØ¸öÊý³¬¹ý64Ê±£¬²Å»áÔÊÐíÊ÷»¯
+     * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï£ï¿½ï¿½ï¿½Ðµï¿½ï¿½ï¿½ï¿½ï¿½Ôªï¿½Ø¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½64Ê±ï¿½ï¿½ï¿½Å»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
      */
     static final int MIN_TREEIFY_CAPACITY = 64;
 
@@ -346,8 +346,8 @@ public class HashMap<K,V> extends AbstractMap<K,V>
      * to incorporate impact of the highest bits that would otherwise
      * never be used in index calculations because of table bounds.
      *
-     * ×÷ÓÃ£ºÈÃkeyµÄhashÖµµÄ¸ß16Î»Ò²²ÎÓëÂ·ÓÉÔËËã
-     * Òì»ò£ºÏàÍ¬Ôò·µ»Ø0£¬²»Í¬·µ»Ø1
+     * ï¿½ï¿½ï¿½Ã£ï¿½ï¿½ï¿½keyï¿½ï¿½hashÖµï¿½Ä¸ï¿½16Î»Ò²ï¿½ï¿½ï¿½ï¿½Â·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+     * ï¿½ï¿½ï¿½ï¿½ï¿½Í¬ï¿½ò·µ»ï¿½0ï¿½ï¿½ï¿½ï¿½Í¬ï¿½ï¿½ï¿½ï¿½1
      *
      * h = 0b 0010 0101 1010 1100 0011 1111 0010 1110
      * 0b 0010 0101 1010 1100 0011 1111 0010 1110
@@ -395,7 +395,7 @@ public class HashMap<K,V> extends AbstractMap<K,V>
 
     /**
      * Returns a power of two size for the given target capacity.
-     * ×÷ÓÃ£º·µ»ØÒ»¸ö´óÓÚµÈÓÚµ±Ç°ÖµcapµÄÒ»¸öÊý×Ö£¬²¢ÇÒÕâ¸öÊý×ÖÒ»¶¨ÊÇ2µÄ´Î·½Êý
+     * ï¿½ï¿½ï¿½Ã£ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½Úµï¿½ï¿½Úµï¿½Ç°Öµcapï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½Ö£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½2ï¿½Ä´Î·ï¿½ï¿½ï¿½
      *
      * cap = 10
      * n = 10 - 1 => 9
@@ -415,7 +415,7 @@ public class HashMap<K,V> extends AbstractMap<K,V>
      * =>0b11111 => 31
      * return 31 + 1;
      *
-     * 0001 1101 1100 => 0001 1111 1111 + 1 => 0010 0000 0000 Ò»¶¨ÊÇ2µÄ´Î·½Êý
+     * 0001 1101 1100 => 0001 1111 1111 + 1 => 0010 0000 0000 Ò»ï¿½ï¿½ï¿½ï¿½2ï¿½Ä´Î·ï¿½ï¿½ï¿½
      *
      */
     static final int tableSizeFor(int cap) {
@@ -436,9 +436,9 @@ public class HashMap<K,V> extends AbstractMap<K,V>
      * (We also tolerate length zero in some operations to allow
      * bootstrapping mechanics that are currently not needed.)
      *
-     * ¹þÏ£±í
+     * ï¿½ï¿½Ï£ï¿½ï¿½
      *
-     * Ê²Ã´Ê±ºò³õÊ¼»¯£¿
+     * Ê²Ã´Ê±ï¿½ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½
      */
     transient Node<K,V>[] table;
 
@@ -450,7 +450,7 @@ public class HashMap<K,V> extends AbstractMap<K,V>
 
     /**
      * The number of key-value mappings contained in this map.
-     * µ±Ç°¹þÏ£±íÖÐÔªËØ¸öÊý
+     * ï¿½ï¿½Ç°ï¿½ï¿½Ï£ï¿½ï¿½ï¿½ï¿½Ôªï¿½Ø¸ï¿½ï¿½ï¿½
      */
     transient int size;
 
@@ -461,14 +461,14 @@ public class HashMap<K,V> extends AbstractMap<K,V>
      * rehash).  This field is used to make iterators on Collection-views of
      * the HashMap fail-fast.  (See ConcurrentModificationException).
      *
-     * µ±Ç°¹þÏ£±í½á¹¹ÐÞ¸Ä´ÎÊý
+     * ï¿½ï¿½Ç°ï¿½ï¿½Ï£ï¿½ï¿½á¹¹ï¿½Þ¸Ä´ï¿½ï¿½ï¿½
      */
     transient int modCount;
 
     /**
      * The next size value at which to resize (capacity * load factor).
      *
-     * À©ÈÝãÐÖµ£¬µ±ÄãµÄ¹þÏ£±íÖÐµÄÔªËØ³¬¹ýãÐÖµÊ±£¬´¥·¢À©ÈÝ
+     * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¹ï¿½Ï£ï¿½ï¿½ï¿½Ðµï¿½Ôªï¿½Ø³ï¿½ï¿½ï¿½ï¿½ï¿½ÖµÊ±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
      * @serial
      */
     // (The javadoc description is true upon serialization.
@@ -480,7 +480,7 @@ public class HashMap<K,V> extends AbstractMap<K,V>
     /**
      * The load factor for the hash table.
      *
-     * ¸ºÔØÒò×Ó
+     * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
      *
      * threshold = capacity * loadFactor
      *
@@ -501,15 +501,15 @@ public class HashMap<K,V> extends AbstractMap<K,V>
      */
     public HashMap(int initialCapacity, float loadFactor) {
 
-        //ÆäÊµ¾ÍÊÇ×öÁËÒ»Ð©Ð£Ñé
-        //capacity±ØÐëÊÇ´óÓÚ0 £¬×î´óÖµÒ²¾ÍÊÇ MAX_CAP
+        //ï¿½ï¿½Êµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»Ð©Ð£ï¿½ï¿½
+        //capacityï¿½ï¿½ï¿½ï¿½ï¿½Ç´ï¿½ï¿½ï¿½0 ï¿½ï¿½ï¿½ï¿½ï¿½ÖµÒ²ï¿½ï¿½ï¿½ï¿½ MAX_CAP
         if (initialCapacity < 0)
             throw new IllegalArgumentException("Illegal initial capacity: " +
                     initialCapacity);
         if (initialCapacity > MAXIMUM_CAPACITY)
             initialCapacity = MAXIMUM_CAPACITY;
 
-        //loadFactor±ØÐë´óÓÚ0
+        //loadFactorï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½0
         if (loadFactor <= 0 || Float.isNaN(loadFactor))
             throw new IllegalArgumentException("Illegal load factor: " +
                     loadFactor);
@@ -626,25 +626,25 @@ public class HashMap<K,V> extends AbstractMap<K,V>
      * @return the node, or null if none
      */
     final Node<K,V> getNode(int hash, Object key) {
-        //tab£ºÒýÓÃµ±Ç°hashMapµÄÉ¢ÁÐ±í
-        //first£ºÍ°Î»ÖÐµÄÍ·ÔªËØ
-        //e£ºÁÙÊ±nodeÔªËØ
-        //n£ºtableÊý×é³¤¶È
+        //tabï¿½ï¿½ï¿½ï¿½ï¿½Ãµï¿½Ç°hashMapï¿½ï¿½É¢ï¿½Ð±ï¿½
+        //firstï¿½ï¿½Í°Î»ï¿½Ðµï¿½Í·Ôªï¿½ï¿½
+        //eï¿½ï¿½ï¿½ï¿½Ê±nodeÔªï¿½ï¿½
+        //nï¿½ï¿½tableï¿½ï¿½ï¿½é³¤ï¿½ï¿½
         Node<K,V>[] tab; Node<K,V> first, e; int n; K k;
 
         if ((tab = table) != null && (n = tab.length) > 0 &&
                 (first = tab[(n - 1) & hash]) != null) {
-            //µÚÒ»ÖÖÇé¿ö£º¶¨Î»³öÀ´µÄÍ°Î»ÔªËØ ¼´ÎªÔÛÃÇÒªgetµÄÊý¾Ý
+            //ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í°Î»Ôªï¿½ï¿½ ï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½Òªgetï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
             if (first.hash == hash && // always check first node
                     ((k = first.key) == key || (key != null && key.equals(k))))
                 return first;
 
-            //ËµÃ÷µ±Ç°Í°Î»²»Ö¹Ò»¸öÔªËØ£¬¿ÉÄÜ ÊÇÁ´±í Ò²¿ÉÄÜÊÇ ºìºÚÊ÷
+            //Ëµï¿½ï¿½ï¿½ï¿½Ç°Í°Î»ï¿½ï¿½Ö¹Ò»ï¿½ï¿½Ôªï¿½Ø£ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Ò²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½
             if ((e = first.next) != null) {
-                //µÚ¶þÖÖÇé¿ö£ºÍ°Î»Éý¼¶³ÉÁË ºìºÚÊ÷
-                if (first instanceof TreeNode)//ÏÂÒ»ÆÚËµ
+                //ï¿½Ú¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í°Î»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½
+                if (first instanceof TreeNode)//ï¿½ï¿½Ò»ï¿½ï¿½Ëµ
                     return ((TreeNode<K,V>)first).getTreeNode(hash, key);
-                //µÚÈýÖÖÇé¿ö£ºÍ°Î»ÐÎ³ÉÁ´±í
+                //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í°Î»ï¿½Î³ï¿½ï¿½ï¿½ï¿½ï¿½
                 do {
                     if (e.hash == hash &&
                             ((k = e.key) == key || (key != null && key.equals(k))))
@@ -696,46 +696,46 @@ public class HashMap<K,V> extends AbstractMap<K,V>
      */
     final V putVal(int hash, K key, V value, boolean onlyIfAbsent,
                    boolean evict) {
-        //tab£ºÒýÓÃµ±Ç°hashMapµÄÉ¢ÁÐ±í
-        //p£º±íÊ¾µ±Ç°É¢ÁÐ±íµÄÔªËØ
-        //n£º±íÊ¾É¢ÁÐ±íÊý×éµÄ³¤¶È
-        //i£º±íÊ¾Â·ÓÉÑ°Ö· ½á¹û
+        //tabï¿½ï¿½ï¿½ï¿½ï¿½Ãµï¿½Ç°hashMapï¿½ï¿½É¢ï¿½Ð±ï¿½
+        //pï¿½ï¿½ï¿½ï¿½Ê¾ï¿½ï¿½Ç°É¢ï¿½Ð±ï¿½ï¿½Ôªï¿½ï¿½
+        //nï¿½ï¿½ï¿½ï¿½Ê¾É¢ï¿½Ð±ï¿½ï¿½ï¿½ï¿½ï¿½Ä³ï¿½ï¿½ï¿½
+        //iï¿½ï¿½ï¿½ï¿½Ê¾Â·ï¿½ï¿½Ñ°Ö· ï¿½ï¿½ï¿½
         Node<K,V>[] tab; Node<K,V> p; int n, i;
 
-        //ÑÓ³Ù³õÊ¼»¯Âß¼­£¬µÚÒ»´Îµ÷ÓÃputValÊ±»á³õÊ¼»¯hashMap¶ÔÏóÖÐµÄ×îºÄ·ÑÄÚ´æµÄÉ¢ÁÐ±í
+        //ï¿½Ó³Ù³ï¿½Ê¼ï¿½ï¿½ï¿½ß¼ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½Îµï¿½ï¿½ï¿½putValÊ±ï¿½ï¿½ï¿½Ê¼ï¿½ï¿½hashMapï¿½ï¿½ï¿½ï¿½ï¿½Ðµï¿½ï¿½ï¿½Ä·ï¿½ï¿½Ú´ï¿½ï¿½É¢ï¿½Ð±ï¿½
         if ((tab = table) == null || (n = tab.length) == 0)
             n = (tab = resize()).length;
 
-        //×î¼òµ¥µÄÒ»ÖÖÇé¿ö£ºÑ°Ö·ÕÒµ½µÄÍ°Î» ¸ÕºÃÊÇ null£¬Õâ¸öÊ±ºò£¬Ö±½Ó½«µ±Ç°k-v=>node ÈÓ½øÈ¥¾Í¿ÉÒÔÁË
+        //ï¿½ï¿½òµ¥µï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ°Ö·ï¿½Òµï¿½ï¿½ï¿½Í°Î» ï¿½Õºï¿½ï¿½ï¿½ nullï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½Ö±ï¿½Ó½ï¿½ï¿½ï¿½Ç°k-v=>node ï¿½Ó½ï¿½È¥ï¿½Í¿ï¿½ï¿½ï¿½ï¿½ï¿½
         if ((p = tab[i = (n - 1) & hash]) == null)
             tab[i] = newNode(hash, key, value, null);
 
         else {
-            //e£º²»ÎªnullµÄ»°£¬ÕÒµ½ÁËÒ»¸öÓëµ±Ç°Òª²åÈëµÄkey-valueÒ»ÖÂµÄkeyµÄÔªËØ
-            //k£º±íÊ¾ÁÙÊ±µÄÒ»¸ökey
+            //eï¿½ï¿½ï¿½ï¿½Îªnullï¿½Ä»ï¿½ï¿½ï¿½ï¿½Òµï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ëµ±Ç°Òªï¿½ï¿½ï¿½ï¿½ï¿½key-valueÒ»ï¿½Âµï¿½keyï¿½ï¿½Ôªï¿½ï¿½
+            //kï¿½ï¿½ï¿½ï¿½Ê¾ï¿½ï¿½Ê±ï¿½ï¿½Ò»ï¿½ï¿½key
             Node<K,V> e; K k;
 
-            //±íÊ¾Í°Î»ÖÐµÄ¸ÃÔªËØ£¬ÓëÄãµ±Ç°²åÈëµÄÔªËØµÄkeyÍêÈ«Ò»ÖÂ£¬±íÊ¾ºóÐøÐèÒª½øÐÐÌæ»»²Ù×÷
+            //ï¿½ï¿½Ê¾Í°Î»ï¿½ÐµÄ¸ï¿½Ôªï¿½Ø£ï¿½ï¿½ï¿½ï¿½ãµ±Ç°ï¿½ï¿½ï¿½ï¿½ï¿½Ôªï¿½Øµï¿½keyï¿½ï¿½È«Ò»ï¿½Â£ï¿½ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½æ»»ï¿½ï¿½ï¿½ï¿½
             if (p.hash == hash &&
                     ((k = p.key) == key || (key != null && key.equals(k))))
                 e = p;
 
-            else if (p instanceof TreeNode)//ºìºÚÊ÷£¬ÏÂÆÚ½²¡£½øQQÈº:865-373-238
+            else if (p instanceof TreeNode)//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú½ï¿½ï¿½ï¿½ï¿½ï¿½QQÈº:865-373-238
                 e = ((TreeNode<K,V>)p).putTreeVal(this, tab, hash, key, value);
             else {
-                //Á´±íµÄÇé¿ö£¬¶øÇÒÁ´±íµÄÍ·ÔªËØÓëÎÒÃÇÒª²åÈëµÄkey²»Ò»ÖÂ¡£
+                //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í·Ôªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½keyï¿½ï¿½Ò»ï¿½Â¡ï¿½
                 for (int binCount = 0; ; ++binCount) {
-                    //Ìõ¼þ³ÉÁ¢µÄ»°£¬ËµÃ÷µü´úµ½×îºóÒ»¸öÔªËØÁË£¬Ò²Ã»ÕÒµ½Ò»¸öÓëÄãÒª²åÈëµÄkeyÒ»ÖÂµÄnode
-                    //ËµÃ÷ÐèÒª¼ÓÈëµ½µ±Ç°Á´±íµÄÄ©Î²
+                    //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä»ï¿½ï¿½ï¿½Ëµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½Ôªï¿½ï¿½ï¿½Ë£ï¿½Ò²Ã»ï¿½Òµï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½keyÒ»ï¿½Âµï¿½node
+                    //Ëµï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½ëµ½ï¿½ï¿½Ç°ï¿½ï¿½ï¿½ï¿½ï¿½Ä©Î²
                     if ((e = p.next) == null) {
                         p.next = newNode(hash, key, value, null);
-                        //Ìõ¼þ³ÉÁ¢µÄ»°£¬ËµÃ÷µ±Ç°Á´±íµÄ³¤¶È£¬´ïµ½Ê÷»¯±ê×¼ÁË£¬ÐèÒª½øÐÐÊ÷»¯
+                        //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä»ï¿½ï¿½ï¿½Ëµï¿½ï¿½ï¿½ï¿½Ç°ï¿½ï¿½ï¿½ï¿½Ä³ï¿½ï¿½È£ï¿½ï¿½ïµ½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×¼ï¿½Ë£ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
                         if (binCount >= TREEIFY_THRESHOLD - 1) // -1 for 1st
-                            //Ê÷»¯²Ù×÷
+                            //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
                             treeifyBin(tab, hash);
                         break;
                     }
-                    //Ìõ¼þ³ÉÁ¢µÄ»°£¬ËµÃ÷ÕÒµ½ÁËÏàÍ¬keyµÄnodeÔªËØ£¬ÐèÒª½øÐÐÌæ»»²Ù×÷
+                    //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä»ï¿½ï¿½ï¿½Ëµï¿½ï¿½ï¿½Òµï¿½ï¿½ï¿½ï¿½ï¿½Í¬keyï¿½ï¿½nodeÔªï¿½Ø£ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½æ»»ï¿½ï¿½ï¿½ï¿½
                     if (e.hash == hash &&
                             ((k = e.key) == key || (key != null && key.equals(k))))
                         break;
@@ -743,7 +743,7 @@ public class HashMap<K,V> extends AbstractMap<K,V>
                 }
             }
 
-            //e²»µÈÓÚnull£¬Ìõ¼þ³ÉÁ¢ËµÃ÷£¬ÕÒµ½ÁËÒ»¸öÓëÄã²åÈëÔªËØkeyÍêÈ«Ò»ÖÂµÄÊý¾Ý£¬ÐèÒª½øÐÐÌæ»»
+            //eï¿½ï¿½ï¿½ï¿½ï¿½ï¿½nullï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ëµï¿½ï¿½ï¿½ï¿½ï¿½Òµï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ôªï¿½ï¿½keyï¿½ï¿½È«Ò»ï¿½Âµï¿½ï¿½ï¿½ï¿½Ý£ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½æ»»
             if (e != null) { // existing mapping for key
                 V oldValue = e.value;
                 if (!onlyIfAbsent || oldValue == null)
@@ -753,9 +753,9 @@ public class HashMap<K,V> extends AbstractMap<K,V>
             }
         }
 
-        //modCount£º±íÊ¾É¢ÁÐ±í½á¹¹±»ÐÞ¸ÄµÄ´ÎÊý£¬Ìæ»»NodeÔªËØµÄvalue²»¼ÆÊý
+        //modCountï¿½ï¿½ï¿½ï¿½Ê¾É¢ï¿½Ð±ï¿½á¹¹ï¿½ï¿½ï¿½Þ¸ÄµÄ´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ»»NodeÔªï¿½Øµï¿½valueï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
         ++modCount;
-        //²åÈëÐÂÔªËØ£¬size×ÔÔö£¬Èç¹û×ÔÔöºóµÄÖµ´óÓÚÀ©ÈÝãÐÖµ£¬Ôò´¥·¢À©ÈÝ¡£
+        //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ôªï¿½Ø£ï¿½sizeï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½ï¿½ò´¥·ï¿½ï¿½ï¿½ï¿½Ý¡ï¿½
         if (++size > threshold)
             resize();
         afterNodeInsertion(evict);
@@ -769,52 +769,52 @@ public class HashMap<K,V> extends AbstractMap<K,V>
      * elements from each bin must either stay at same index, or move
      * with a power of two offset in the new table.
      *
-     * ÎªÊ²Ã´ÐèÒªÀ©ÈÝ£¿
-     * ÎªÁË½â¾ö¹þÏ£³åÍ»µ¼ÖÂµÄÁ´»¯Ó°Ïì²éÑ¯Ð§ÂÊµÄÎÊÌâ£¬À©ÈÝ»á»º½â¸ÃÎÊÌâ¡£
+     * ÎªÊ²Ã´ï¿½ï¿½Òªï¿½ï¿½ï¿½Ý£ï¿½
+     * Îªï¿½Ë½ï¿½ï¿½ï¿½ï¿½Ï£ï¿½ï¿½Í»ï¿½ï¿½ï¿½Âµï¿½ï¿½ï¿½ï¿½ï¿½Ó°ï¿½ï¿½ï¿½Ñ¯Ð§ï¿½Êµï¿½ï¿½ï¿½ï¿½â£¬ï¿½ï¿½ï¿½Ý»á»ºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½â¡£
      *
      * @return the table
      */
     final Node<K,V>[] resize() {
-        //oldTab£ºÒýÓÃÀ©ÈÝÇ°µÄ¹þÏ£±í
+        //oldTabï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç°ï¿½Ä¹ï¿½Ï£ï¿½ï¿½
         Node<K,V>[] oldTab = table;
-        //oldCap£º±íÊ¾À©ÈÝÖ®Ç°tableÊý×éµÄ³¤¶È
+        //oldCapï¿½ï¿½ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½Ö®Ç°tableï¿½ï¿½ï¿½ï¿½Ä³ï¿½ï¿½ï¿½
         int oldCap = (oldTab == null) ? 0 : oldTab.length;
-        //oldThr£º±íÊ¾À©ÈÝÖ®Ç°µÄÀ©ÈÝãÐÖµ£¬´¥·¢±¾´ÎÀ©ÈÝµÄãÐÖµ
+        //oldThrï¿½ï¿½ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½Ö®Ç°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ýµï¿½ï¿½ï¿½Öµ
         int oldThr = threshold;
-        //newCap£ºÀ©ÈÝÖ®ºótableÊý×éµÄ´óÐ¡
-        //newThr£ºÀ©ÈÝÖ®ºó£¬ÏÂ´ÎÔÙ´Î´¥·¢À©ÈÝµÄÌõ¼þ
+        //newCapï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö®ï¿½ï¿½tableï¿½ï¿½ï¿½ï¿½Ä´ï¿½Ð¡
+        //newThrï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö®ï¿½ï¿½ï¿½Â´ï¿½ï¿½Ù´Î´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ýµï¿½ï¿½ï¿½ï¿½ï¿½
         int newCap, newThr = 0;
 
-        //Ìõ¼þÈç¹û³ÉÁ¢ËµÃ÷ hashMapÖÐµÄÉ¢ÁÐ±íÒÑ¾­³õÊ¼»¯¹ýÁË£¬ÕâÊÇÒ»´ÎÕý³£À©ÈÝ
+        //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ëµï¿½ï¿½ hashMapï¿½Ðµï¿½É¢ï¿½Ð±ï¿½ï¿½Ñ¾ï¿½ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½ï¿½Ë£ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
         if (oldCap > 0) {
-            //À©ÈÝÖ®Ç°µÄtableÊý×é´óÐ¡ÒÑ¾­´ïµ½ ×î´óãÐÖµºó£¬Ôò²»À©ÈÝ£¬ÇÒÉèÖÃÀ©ÈÝÌõ¼þÎª int ×î´óÖµ¡£
+            //ï¿½ï¿½ï¿½ï¿½Ö®Ç°ï¿½ï¿½tableï¿½ï¿½ï¿½ï¿½ï¿½Ð¡ï¿½Ñ¾ï¿½ï¿½ïµ½ ï¿½ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îª int ï¿½ï¿½ï¿½Öµï¿½ï¿½
             if (oldCap >= MAXIMUM_CAPACITY) {
                 threshold = Integer.MAX_VALUE;
                 return oldTab;
             }
 
-            //oldCap×óÒÆÒ»Î»ÊµÏÖÊýÖµ·­±¶£¬²¢ÇÒ¸³Öµ¸ønewCap£¬ newCap Ð¡ÓÚÊý×é×î´óÖµÏÞÖÆ ÇÒ À©ÈÝÖ®Ç°µÄãÐÖµ >= 16
-            //ÕâÖÖÇé¿öÏÂ£¬Ôò ÏÂÒ»´ÎÀ©ÈÝµÄãÐÖµ µÈÓÚµ±Ç°ãÐÖµ·­±¶
+            //oldCapï¿½ï¿½ï¿½ï¿½Ò»Î»Êµï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò¸ï¿½Öµï¿½ï¿½newCapï¿½ï¿½ newCap Ð¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ö®Ç°ï¿½ï¿½ï¿½ï¿½Öµ >= 16
+            //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â£ï¿½ï¿½ï¿½ ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½Ýµï¿½ï¿½ï¿½Öµ ï¿½ï¿½ï¿½Úµï¿½Ç°ï¿½ï¿½Öµï¿½ï¿½ï¿½ï¿½
             else if ((newCap = oldCap << 1) < MAXIMUM_CAPACITY &&
                     oldCap >= DEFAULT_INITIAL_CAPACITY)
                 newThr = oldThr << 1; // double threshold
         }
 
-        //oldCap == 0,ËµÃ÷hashMapÖÐµÄÉ¢ÁÐ±íÊÇnull
+        //oldCap == 0,Ëµï¿½ï¿½hashMapï¿½Ðµï¿½É¢ï¿½Ð±ï¿½ï¿½ï¿½null
         //1.new HashMap(initCap, loadFactor);
         //2.new HashMap(initCap);
-        //3.new HashMap(map); ²¢ÇÒÕâ¸ömapÓÐÊý¾Ý
+        //3.new HashMap(map); ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½mapï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
         else if (oldThr > 0) // initial capacity was placed in threshold
             newCap = oldThr;
 
-        //oldCap == 0£¬oldThr == 0
+        //oldCap == 0ï¿½ï¿½oldThr == 0
         //new HashMap();
         else {               // zero initial threshold signifies using defaults
             newCap = DEFAULT_INITIAL_CAPACITY;//16
             newThr = (int)(DEFAULT_LOAD_FACTOR * DEFAULT_INITIAL_CAPACITY);//12
         }
 
-        //newThrÎªÁãÊ±£¬Í¨¹ýnewCapºÍloadFactor¼ÆËã³öÒ»¸önewThr
+        //newThrÎªï¿½ï¿½Ê±ï¿½ï¿½Í¨ï¿½ï¿½newCapï¿½ï¿½loadFactorï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½newThr
         if (newThr == 0) {
             float ft = (float)newCap * loadFactor;
             newThr = (newCap < MAXIMUM_CAPACITY && ft < (float)MAXIMUM_CAPACITY ?
@@ -823,36 +823,36 @@ public class HashMap<K,V> extends AbstractMap<K,V>
 
         threshold = newThr;
 
-        //´´½¨³öÒ»¸ö¸ü³¤ ¸ü´óµÄÊý×é
+        //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
         @SuppressWarnings({"rawtypes","unchecked"})
         Node<K,V>[] newTab = (Node<K,V>[])new Node[newCap];
         table = newTab;
 
-        //ËµÃ÷£¬hashMap±¾´ÎÀ©ÈÝÖ®Ç°£¬table²»Îªnull
+        //Ëµï¿½ï¿½ï¿½ï¿½hashMapï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö®Ç°ï¿½ï¿½tableï¿½ï¿½Îªnull
         if (oldTab != null) {
 
             for (int j = 0; j < oldCap; ++j) {
-                //µ±Ç°node½Úµã
+                //ï¿½ï¿½Ç°nodeï¿½Úµï¿½
                 Node<K,V> e;
-                //ËµÃ÷µ±Ç°Í°Î»ÖÐÓÐÊý¾Ý£¬µ«ÊÇÊý¾Ý¾ßÌåÊÇ µ¥¸öÊý¾Ý£¬»¹ÊÇÁ´±í »¹ÊÇ ºìºÚÊ÷ ²¢²»ÖªµÀ
+                //Ëµï¿½ï¿½ï¿½ï¿½Ç°Í°Î»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý¾ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Öªï¿½ï¿½
                 if ((e = oldTab[j]) != null) {
-                    //·½±ãJVM GCÊ±»ØÊÕÄÚ´æ
+                    //ï¿½ï¿½ï¿½ï¿½JVM GCÊ±ï¿½ï¿½ï¿½ï¿½ï¿½Ú´ï¿½
                     oldTab[j] = null;
 
-                    //µÚÒ»ÖÖÇé¿ö£ºµ±Ç°Í°Î»Ö»ÓÐÒ»¸öÔªËØ£¬´ÓÎ´·¢Éú¹ýÅö×²£¬ÕâÇé¿ö Ö±½Ó¼ÆËã³öµ±Ç°ÔªËØÓ¦´æ·ÅÔÚ ÐÂÊý×éÖÐµÄÎ»ÖÃ£¬È»ºó
-                    //ÈÓ½øÈ¥¾Í¿ÉÒÔÁË
+                    //ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç°Í°Î»Ö»ï¿½ï¿½Ò»ï¿½ï¿½Ôªï¿½Ø£ï¿½ï¿½ï¿½Î´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Ö±ï¿½Ó¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç°Ôªï¿½ï¿½Ó¦ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ðµï¿½Î»ï¿½Ã£ï¿½È»ï¿½ï¿½
+                    //ï¿½Ó½ï¿½È¥ï¿½Í¿ï¿½ï¿½ï¿½ï¿½ï¿½
                     if (e.next == null)
                         newTab[e.hash & (newCap - 1)] = e;
 
-                    //µÚ¶þÖÖÇé¿ö£ºµ±Ç°½ÚµãÒÑ¾­Ê÷»¯£¬±¾ÆÚÏÈ²»½²£¬ÏÂÒ»ÆÚ½²£¬ºìºÚÊ÷¡£QQÈº£º865-373-238
+                    //ï¿½Ú¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç°ï¿½Úµï¿½ï¿½Ñ¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½Ú½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½QQÈºï¿½ï¿½865-373-238
                     else if (e instanceof TreeNode)
                         ((TreeNode<K,V>)e).split(this, newTab, j, oldCap);
                     else { // preserve order
-                        //µÚÈýÖÖÇé¿ö£ºÍ°Î»ÒÑ¾­ÐÎ³ÉÁ´±í
+                        //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í°Î»ï¿½Ñ¾ï¿½ï¿½Î³ï¿½ï¿½ï¿½ï¿½ï¿½
 
-                        //µÍÎ»Á´±í£º´æ·ÅÔÚÀ©ÈÝÖ®ºóµÄÊý×éµÄÏÂ±êÎ»ÖÃ£¬Óëµ±Ç°Êý×éµÄÏÂ±êÎ»ÖÃÒ»ÖÂ¡£
+                        //ï¿½ï¿½Î»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö®ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â±ï¿½Î»ï¿½Ã£ï¿½ï¿½ëµ±Ç°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â±ï¿½Î»ï¿½ï¿½Ò»ï¿½Â¡ï¿½
                         Node<K,V> loHead = null, loTail = null;
-                        //¸ßÎ»Á´±í£º´æ·ÅÔÚÀ©ÈÝÖ®ºóµÄÊý×éµÄÏÂ±íÎ»ÖÃÎª µ±Ç°Êý×éÏÂ±êÎ»ÖÃ + À©ÈÝÖ®Ç°Êý×éµÄ³¤¶È
+                        //ï¿½ï¿½Î»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö®ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â±ï¿½Î»ï¿½ï¿½Îª ï¿½ï¿½Ç°ï¿½ï¿½ï¿½ï¿½ï¿½Â±ï¿½Î»ï¿½ï¿½ + ï¿½ï¿½ï¿½ï¿½Ö®Ç°ï¿½ï¿½ï¿½ï¿½Ä³ï¿½ï¿½ï¿½
                         Node<K,V> hiHead = null, hiTail = null;
 
                         Node<K,V> next;
@@ -964,36 +964,36 @@ public class HashMap<K,V> extends AbstractMap<K,V>
      */
     final Node<K,V> removeNode(int hash, Object key, Object value,
                                boolean matchValue, boolean movable) {
-        //tab£ºÒýÓÃµ±Ç°hashMapÖÐµÄÉ¢ÁÐ±í
-        //p£ºµ±Ç°nodeÔªËØ
-        //n£º±íÊ¾É¢ÁÐ±íÊý×é³¤¶È
-        //index£º±íÊ¾Ñ°Ö·½á¹û
+        //tabï¿½ï¿½ï¿½ï¿½ï¿½Ãµï¿½Ç°hashMapï¿½Ðµï¿½É¢ï¿½Ð±ï¿½
+        //pï¿½ï¿½ï¿½ï¿½Ç°nodeÔªï¿½ï¿½
+        //nï¿½ï¿½ï¿½ï¿½Ê¾É¢ï¿½Ð±ï¿½ï¿½ï¿½ï¿½é³¤ï¿½ï¿½
+        //indexï¿½ï¿½ï¿½ï¿½Ê¾Ñ°Ö·ï¿½ï¿½ï¿½
         Node<K,V>[] tab; Node<K,V> p; int n, index;
 
         if ((tab = table) != null && (n = tab.length) > 0 &&
                 (p = tab[index = (n - 1) & hash]) != null) {
-            //ËµÃ÷Â·ÓÉµÄÍ°Î»ÊÇÓÐÊý¾ÝµÄ£¬ÐèÒª½øÐÐ²éÕÒ²Ù×÷£¬²¢ÇÒÉ¾³ý
+            //Ëµï¿½ï¿½Â·ï¿½Éµï¿½Í°Î»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÝµÄ£ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½Ð²ï¿½ï¿½Ò²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É¾ï¿½ï¿½
 
-            //node£º²éÕÒµ½µÄ½á¹û
-            //e£ºµ±Ç°NodeµÄÏÂÒ»¸öÔªËØ
+            //nodeï¿½ï¿½ï¿½ï¿½ï¿½Òµï¿½ï¿½Ä½ï¿½ï¿½
+            //eï¿½ï¿½ï¿½ï¿½Ç°Nodeï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½Ôªï¿½ï¿½
             Node<K,V> node = null, e; K k; V v;
 
-            //µÚÒ»ÖÖÇé¿ö£ºµ±Ç°Í°Î»ÖÐµÄÔªËØ ¼´Îª ÄãÒªÉ¾³ýµÄÔªËØ
+            //ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç°Í°Î»ï¿½Ðµï¿½Ôªï¿½ï¿½ ï¿½ï¿½Îª ï¿½ï¿½ÒªÉ¾ï¿½ï¿½ï¿½ï¿½Ôªï¿½ï¿½
             if (p.hash == hash &&
                     ((k = p.key) == key || (key != null && key.equals(k))))
                 node = p;
 
 
             else if ((e = p.next) != null) {
-                //ËµÃ÷£¬µ±Ç°Í°Î» ÒªÃ´ÊÇ Á´±í ÒªÃ´ ÊÇºìºÚÊ÷
+                //Ëµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç°Í°Î» ÒªÃ´ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ÒªÃ´ ï¿½Çºï¿½ï¿½ï¿½ï¿½
 
-                if (p instanceof TreeNode)//ÅÐ¶Ïµ±Ç°Í°Î»ÊÇ·ñÉý¼¶Îª ºìºÚÊ÷ÁË
-                    //µÚ¶þÖÖÇé¿ö
-                    //ºìºÚÊ÷²éÕÒ²Ù×÷£¬ÏÂÒ»ÆÚÔÙËµ
+                if (p instanceof TreeNode)//ï¿½Ð¶Ïµï¿½Ç°Í°Î»ï¿½Ç·ï¿½ï¿½ï¿½ï¿½ï¿½Îª ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+                    //ï¿½Ú¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+                    //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½Ëµ
                     node = ((TreeNode<K,V>)p).getTreeNode(hash, key);
                 else {
-                    //µÚÈýÖÖÇé¿ö
-                    //Á´±íµÄÇé¿ö
+                    //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+                    //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
                     do {
                         if (e.hash == hash &&
                                 ((k = e.key) == key ||
@@ -1007,20 +1007,20 @@ public class HashMap<K,V> extends AbstractMap<K,V>
             }
 
 
-            //ÅÐ¶Ïnode²»Îª¿ÕµÄ»°£¬ËµÃ÷°´ÕÕkey²éÕÒµ½ÐèÒªÉ¾³ýµÄÊý¾ÝÁË
+            //ï¿½Ð¶ï¿½nodeï¿½ï¿½Îªï¿½ÕµÄ»ï¿½ï¿½ï¿½Ëµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½keyï¿½ï¿½ï¿½Òµï¿½ï¿½ï¿½ÒªÉ¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
             if (node != null && (!matchValue || (v = node.value) == value ||
                     (value != null && value.equals(v)))) {
 
-                //µÚÒ»ÖÖÇé¿ö£ºnodeÊÇÊ÷½Úµã£¬ËµÃ÷ÐèÒª½øÐÐÊ÷½ÚµãÒÆ³ý²Ù×÷
+                //ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½nodeï¿½ï¿½ï¿½ï¿½ï¿½Úµã£¬Ëµï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Úµï¿½ï¿½Æ³ï¿½ï¿½ï¿½ï¿½ï¿½
                 if (node instanceof TreeNode)
                     ((TreeNode<K,V>)node).removeTreeNode(this, tab, movable);
 
-                //µÚ¶þÖÖÇé¿ö£ºÍ°Î»ÔªËØ¼´Îª²éÕÒ½á¹û£¬Ôò½«¸ÃÔªËØµÄÏÂÒ»¸öÔªËØ·ÅÖÁÍ°Î»ÖÐ
+                //ï¿½Ú¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í°Î»Ôªï¿½Ø¼ï¿½Îªï¿½ï¿½ï¿½Ò½ï¿½ï¿½ï¿½ï¿½ï¿½ò½«¸ï¿½Ôªï¿½Øµï¿½ï¿½ï¿½Ò»ï¿½ï¿½Ôªï¿½Ø·ï¿½ï¿½ï¿½Í°Î»ï¿½ï¿½
                 else if (node == p)
                     tab[index] = node.next;
 
                 else
-                    //µÚÈýÖÖÇé¿ö£º½«µ±Ç°ÔªËØpµÄÏÂÒ»¸öÔªËØ ÉèÖÃ³É ÒªÉ¾³ýÔªËØµÄ ÏÂÒ»¸öÔªËØ¡£
+                    //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç°Ôªï¿½ï¿½pï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½Ôªï¿½ï¿½ ï¿½ï¿½ï¿½Ã³ï¿½ ÒªÉ¾ï¿½ï¿½Ôªï¿½Øµï¿½ ï¿½ï¿½Ò»ï¿½ï¿½Ôªï¿½Ø¡ï¿½
                     p.next = node.next;
 
                 ++modCount;
